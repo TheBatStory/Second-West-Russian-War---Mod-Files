@@ -353,14 +353,26 @@ BE_NOVOSIBIRSK_WAR_POKRYSHKIN_T:0 "THE SECOND WEST RUSSIAN WAR"
 BE_NOVOSIBIRSK_WAR_POKRYSHKIN_D:0 "Everything will probably never be okay. But we have to try for it.\n- Vladimir Putin"
 BE_NOVOSIBIRSK_WAR_POKRYSHKIN_A:0 "The Strongmen Attack"
 
-BE_NOVOSIBIRSK_VICTORY_SHUKSHIN_T:0 "RUSSIAN FEDERATION VICTORIOUS"
+BE_NOVOSIBIRSK_VICTORY_SHUKSHIN_T:0 "THE RUSSIAN FEDERATION VICTORIOUS"
 BE_NOVOSIBIRSK_VICTORY_SHUKSHIN_D:0 "They fought for the Motherland. They saved their homeland. They won.\n- Vasily Shukshin"
 BE_NOVOSIBIRSK_VICTORY_SHUKSHIN_A:0 "Better Days Ahead"
 
-BE_NOVOSIBIRSK_VICTORY_POKRYSHKIN_T:0 "RUSSIAN FEDERATION VICTORIOUS"
+BE_NOVOSIBIRSK_VICTORY_POKRYSHKIN_T:0 "THE RUSSIAN FEDERATION VICTORIOUS"
 BE_NOVOSIBIRSK_VICTORY_POKRYSHKIN_D:0 "At last, Russia has returned to the world arena as a strong state - a country that others heed and that can stand up for itself.\n- Vladimir Putin"
 BE_NOVOSIBIRSK_VICTORY_POKRYSHKIN_A:0 "Strongmen Triumphs"
 
 BE_TWILIGHT_OF_THE_GODS_T: "TWILIGHT OF THE GODS"
 BE_TWILIGHT_OF_THE_GODS_D: "Nobody is born, for whom Sun shines on, that can subjegate us! And that is our oath: so long in this world there is sword and war!\n- Daurentius"
 BE_TWILIGHT_OF_THE_GODS_A: "Svarog Awakens"
+
+BE_WRRF_ZHUKOV_T: "THE SECOND GREAT PATRIOTIC WAR"
+BE_WRRF_ZHUKOV_D: "For me, the main thing was to serve the Motherland, my people. And with a clear conscience, I can say: I did everything to fulfil this duty.\n- Georgy Zhukov"
+BE_WRRF_ZHUKOV_A: "Their Land, their People, their Blood"
+
+BE_SBA_WAR_T: "MARCH OF THE ANARCHISTS"
+BE_SBA_WAR_D: "When we have but the will to do it, that very moment will justice be done: that very instant the tyrants of the Earth shall bite the dust.\n- Pytor Kropotkin"
+BE_SBA_WAR_A: "For Mother Anarchy"
+
+BE_SEROV_WAR_T: "THE SECOND WEST RUSSIAN WAR"
+BE_SEROV_WAR_D: "We must take from the right nationalism without capitalism and from the left socialism without internationalism.\n-Gregor Strasser"
+BE_SEROV_WAR_A: "Clash of the Titans"

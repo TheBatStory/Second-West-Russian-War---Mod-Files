@@ -539,3 +539,21 @@ sound = {
 	file = "menu/tno_se_twilight_of_the_gods.wav"
 	always_load = no
 }
+
+sound = {
+	name = "tno_se_wrrf_war_declaration"
+	file = "menu/tno_se_wrrf_war_declaration.wav"
+	always_load = no
+}
+
+sound = {
+	name = "tno_se_sba_war_declaration"
+	file = "menu/tno_se_sba_war_declaration.wav"
+	always_load = no
+}
+
+sound = {
+	name = "tno_se_serov_war_declaration"
+	file = "menu/tno_se_serov_war_declaration.wav"
+	always_load = no
+}

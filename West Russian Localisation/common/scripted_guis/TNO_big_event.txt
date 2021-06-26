@@ -2435,4 +2435,76 @@ scripted_gui = {
 			}
 		}
 	}
+	
+	TNO_SG_big_event_wrrf_declaration = {
+		context_type = player_context
+		window_name = "TNO_SG_big_event_wrrf_declaration"
+
+		visible = {
+			has_country_flag = big_event_wrrf_declaration
+		}
+	}
+
+	TNO_SG_big_event_frame_wrrf_declaration = {
+		context_type = player_context
+		window_name = "TNO_SG_big_event_frame_wrrf_declaration"
+
+		visible = {
+			has_country_flag = big_event_wrrf_declaration
+		}
+
+		effects = {
+			Option_click = {
+				clr_country_flag = big_event_wrrf_declaration
+			}
+		}
+	}
+	
+	TNO_SG_big_event_sba_war_declaration = {
+		context_type = player_context
+		window_name = "TNO_SG_big_event_sba_war_declaration"
+
+		visible = {
+			has_country_flag = big_event_sba_war_declaration
+		}
+	}
+
+	TNO_SG_big_event_frame_sba_war_declaration = {
+		context_type = player_context
+		window_name = "TNO_SG_big_event_frame_sba_war_declaration"
+
+		visible = {
+			has_country_flag = big_event_sba_war_declaration
+		}
+
+		effects = {
+			Option_click = {
+				clr_country_flag = big_event_sba_war_declaration
+			}
+		}
+	}
+	
+	TNO_SG_big_event_serov_war_declaration = {
+		context_type = player_context
+		window_name = "TNO_SG_big_event_serov_war_declaration"
+
+		visible = {
+			has_country_flag = big_event_serov_war_declaration
+		}
+	}
+
+	TNO_SG_big_event_frame_serov_war_declaration = {
+		context_type = player_context
+		window_name = "TNO_SG_big_event_frame_serov_war_declaration"
+
+		visible = {
+			has_country_flag = big_event_serov_war_declaration
+		}
+
+		effects = {
+			Option_click = {
+				clr_country_flag = big_event_serov_war_declaration
+			}
+		}
+	}
 }

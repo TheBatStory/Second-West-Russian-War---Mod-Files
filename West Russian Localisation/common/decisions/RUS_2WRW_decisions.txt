@@ -16,7 +16,7 @@ RUS_2WRW_category = {
 		}
 		
 		available = {
-			#date > 1971.6.01
+			date > 1971.6.01
 			has_global_flag = RUS_national_unification
 			has_war = no
 			command_power > 24.99
@@ -41,6 +41,26 @@ RUS_2WRW_category = {
 				target = GER
 				type = annex_everything
 			}
+			declare_war_on = {
+				target = MCW
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = MOS
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = VLG
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = UKR
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = OST
+				type = annex_everything
+			}
 		}	
 	}
 	
@@ -57,7 +77,7 @@ RUS_2WRW_category = {
 		}
 		
 		available = {
-			#date > 1971.6.01
+			date > 1971.6.01
 			has_global_flag = RUS_national_unification
 			has_war = no
 			command_power > 24.99
@@ -82,6 +102,26 @@ RUS_2WRW_category = {
 				target = GER
 				type = annex_everything
 			}
+			declare_war_on = {
+				target = MCW
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = MOS
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = VLG
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = UKR
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = OST
+				type = annex_everything
+			}
 		}	
 	}
 	
@@ -98,7 +138,7 @@ RUS_2WRW_category = {
 		}
 		
 		available = {
-			date > 1971.6.01
+			#date > 1971.6.01
 			has_global_flag = RUS_national_unification
 			has_war = no
 			command_power > 24.99
@@ -123,38 +163,6 @@ RUS_2WRW_category = {
 				target = GER
 				type = annex_everything
 			}
-		}		
-	}
-	
-	RUS_secure_eastern_europe = {
-		allowed = {
-			is_russian_nation = yes
-		}
-			
-		visible = {
-			country_exists = MCW
-			country_exists = OST
-			country_exists = UKR
-			country_exists = CAU
-			has_global_flag = RUS_national_unification
-		}
-		
-		available = {
-			date > 1971.6.01
-			has_global_flag = RUS_national_unification
-			command_power > 24.99
-		}
-		
-		custom_cost_trigger = { command_power > 24.99 }
-		custom_cost_text = decision_cost_25_cp
-		
-		ai_will_do = {
-			factor = 0
-		}
-		
-		fire_only_once = yes
-		
-		complete_effect = {
 			declare_war_on = {
 				target = MCW
 				type = annex_everything
@@ -173,6 +181,46 @@ RUS_2WRW_category = {
 			}
 			declare_war_on = {
 				target = OST
+				type = annex_everything
+			}
+		}		
+	}
+	
+	RUS_commence_great_trial = {
+		allowed = {
+			is_russian_nation = yes
+		}
+			
+		visible = {
+			original_tag = OMS
+			country_exists = GER
+			has_global_flag = RUS_national_unification
+		}
+		
+		available = {
+			date > 1971.6.01
+			has_global_flag = RUS_national_unification
+			has_war = no
+			command_power > 24.99
+		}
+		
+		custom_cost_trigger = { command_power > 24.99 }
+		custom_cost_text = decision_cost_25_cp
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		fire_only_once = yes
+		
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: The Second West Russian War has begun"
+			
+			every_country = {
+				news_event = { id = WORLD.40003 days = 1 }
+			}
+			declare_war_on = {
+				target = GER
 				type = annex_everything
 			}
 		}	
@@ -243,6 +291,39 @@ RUS_2WRW_category = {
 			
 			GER = {
 				country_event = { id = reich.2002 days = 1 }
+			}
+		}	
+	}
+	
+	RUS_pokryshkin_victory_path = { # Putin Basically
+		allowed = {
+			is_russian_nation = yes
+		}
+			
+		visible = {
+			original_tag = PAV
+			has_government = authoritarian_democrat
+			country_exists = GER
+			has_war_with = GER
+			has_global_flag = RUS_national_unification
+		}
+		
+		available = {
+			12 = { is_controlled_by = RUS }
+			202 = { is_controlled_by = RUS }
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		fire_only_once = yes
+		
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: The Russians Have Won!"
+			
+			GER = {
+				country_event = { id = reich.2003 days = 1 }
 			}
 		}	
 	}

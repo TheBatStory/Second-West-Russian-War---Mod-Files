@@ -22918,62 +22918,6 @@ news_event = { #Liberation of Moscow - Generic
 	}
 }
 
-news_event = { #Declaration of War - Generic
-	id = WORLD.40003
-	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.40003"}
-	title = WORLD.40003.t
-	desc = WORLD.40003.desc
-	picture = GFX_news_event_russia_wrrf_1
-	
-	is_triggered_only = yes
-
-	option = {
-		name = WORLD.40003.a
-		set_country_flag = big_event_second_west_russian_war
-		trigger = {
-			NOT = {
-				TAG = RUS
-				TAG = GER
-			}
-		}
-	}
-	
-	option = {
-		name = WORLD.40003.b
-		set_country_flag = big_event_second_west_russian_war
-		trigger = { 
-			#West Russia
-			original_tag = WRS
-			original_tag = KIR
-			original_tag = SAM
-			original_tag = NIK
-			original_tag = PRM
-			#West Siberia
-			original_tag = ISH
-			original_tag = TOB
-			#Central Siberia
-			original_tag = ERS
-			original_tag = KHA
-			original_tag = PAV
-			original_tag = SVO
-			original_tag = KEM
-			#Far East
-			original_tag = WCH
-			original_tag = AMR
-			original_tag = MAG
-			original_tag = OMO
-			original_tag = BRY
-			original_tag = IRK
-		}
-	}
-	
-	option = {
-		name = WORLD.40003.c
-		set_country_flag = big_event_second_west_russian_war
-		trigger = { TAG = GER }
-	}
-}
-
 # Novosibirsk
 
 news_event = { #Declaration of War - Shukshin
@@ -23050,7 +22994,7 @@ news_event = { #Declaration of War - Pokryshkin
 	}
 }
 
-news_event = { #Federation Victory!
+news_event = { #Federation Victory! - Shukshin
 	id = WORLD.40006
 	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.40006"}
 	title = WORLD.40006.t
@@ -23083,6 +23027,128 @@ news_event = { #Federation Victory!
 		set_country_flag = big_event_shukshin_russian_victory
 		trigger = {
 			TAG = GER
+		}
+	}
+}
+
+news_event = { #Federation Victory! - Pokryshkin
+	id = WORLD.40008
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.40008"}
+	title = WORLD.40008.t
+	desc = WORLD.40008.desc
+	picture = GFX_news_event_russia_novosibirsk_unification
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = WORLD.40008.a
+		set_country_flag = big_event_pokryshkin_russian_victory
+		trigger = {
+			NOT = {
+				TAG = RUS
+				TAG = GER
+			}
+		}
+	}
+	
+	option = {
+		name = WORLD.40008.b
+		set_country_flag = big_event_pokryshkin_russian_victory
+		trigger = {
+			TAG = RUS
+		}
+	}
+	
+	option = {
+		name = WORLD.40008.c
+		set_country_flag = big_event_pokryshkin_russian_victory
+		trigger = {
+			TAG = GER
+		}
+	}
+}
+
+news_event = { #Declaration of War - Generic
+	id = WORLD.40003
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.40003"}
+	title = WORLD.40003.t
+	desc = WORLD.40003.desc
+	picture = GFX_news_event_russia_wrrf_1
+	
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.40003.a
+		set_country_flag = big_event_second_west_russian_war
+		trigger = {
+			NOT = {
+				TAG = RUS
+				TAG = GER
+			}
+		}
+	}
+	
+	option = {
+		name = WORLD.40003.b
+		set_country_flag = big_event_second_west_russian_war
+		trigger = { 
+			if = {
+				NOT = {
+					original_tag = PAV
+				}
+			}
+			original_tag = KIR
+			original_tag = SAM
+			original_tag = NIK
+			original_tag = PRM
+
+			original_tag = ISH
+			original_tag = TOB
+
+			original_tag = ERS
+			original_tag = SVO
+			original_tag = KEM
+			
+			original_tag = WCH
+			original_tag = AMR
+			original_tag = MAG
+			original_tag = OMO
+			original_tag = BRY
+			original_tag = IRK
+		}
+	}
+	
+	option = {
+		name = WORLD.40003.c
+		set_country_flag = big_event_second_west_russian_war
+		trigger = { TAG = GER }
+	}
+	
+	option = {
+		name = WORLD.40003.d
+		set_country_flag = big_event_the_great_trial
+		trigger = { original_tag = OMS }
+	}
+	
+	option = {
+		name = WORLD.40003.e
+		set_country_flag = big_event_wrrf_declaration
+		trigger = { original_tag = WRS }
+	}
+	
+	option = {
+		name = WORLD.40003.f
+		set_country_flag = big_event_sba_war_declaration
+		trigger = { original_tag = KHA }
+	}
+	
+	option = {
+		name = WORLD.40003.g
+		set_country_flag = big_event_serov_war_declaration
+		trigger = { 
+			original_tag = NIK
+			has_country_leader = {
+				name = "Ivan Serov"
 		}
 	}
 }

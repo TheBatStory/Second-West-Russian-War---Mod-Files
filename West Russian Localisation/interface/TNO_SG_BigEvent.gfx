@@ -468,6 +468,21 @@ spriteTypes = {
 		name = "GFX_superevent_twilight_of_the_gods"
 		textureFile = "gfx/superevent_pictures/hyperborea_war.tga"
 	}
+	
+	spriteType = {
+		name = "GFX_superevent_wrrf_declaration"
+		textureFile = "gfx/superevent_pictures/zhukov.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_superevent_sba_war_declaration"
+		textureFile = "gfx/superevent_pictures/free_territory_invades.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_superevent_serov_war_declaration"
+		textureFile = "gfx/superevent_pictures/serov_declaration.tga"
+	}
 
 	##USE SUPER_EVENT_MAKER_GUI IN USEFUL PYTHON PROGRAMS TO MAKE NEW SUPER EVENTS##
 }

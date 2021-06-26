@@ -13523,7 +13523,7 @@ country_event = { # Russian Victory - Shukshin
 	}
 }
 
-country_event = { # Russian Victory - Shukshin
+country_event = { # Russian Victory - Pokryshkin
 	id = RUS.6003
 	immediate = { log = "[GetDateText]: [Root.GetName]: event RUS.6003" }
 	title = RUS.6003.t

@@ -144,7 +144,7 @@
  #Caucusus#
  RUS_coring_integrate_circassia:0 "Integrate §YCircassia§!"
  RUS_coring_integrate_chechnya:0 "Integrate §YChechnya§!"
- RUS_coring_integrate_azerbaijan:0 "Integrate §YAzerbeijan§!"
+ RUS_coring_integrate_azerbaijan:0 "Integrate §YAzerbaijan§!"
  RUS_coring_integrate_georgia:0 "Integrate §YGeorgia§!"
  RUS_coring_integrate_armenia:0 "Integrate §YArmenia§!"
  
@@ -168,16 +168,28 @@
  RUS_west_russian_war:0 "Temporary Decision to initiate the West Russian War. May add option to debug menu upon completion of the war"
 
  RUS_2WRW_category:0 "Second West Russian War"
+ RUS_intervention_category:0 "Central Asian Intervention"
+ 
  RUS_invade_reich:0 "Invade the §RReich§!"
  RUS_shukshin_invade_reich:0 "The Federation Invades the §RReich§!"
  RUS_pokryshkin_invade_reich:0 "The Federation Invades the §RReich§!"
+ RUS_commence_great_trial:0 "Commence the §RGreat Trial§!"
  RUS_secure_eastern_europe:0 "Secure §REastern Europe§!"
+ RUS_intervention_in_central_asia:0 "Intervention in §YCentral Asia§!"
  RUS_superregional_stage:0 "Super Regional Stage of Russia"
+ RUS_national_unification:0 "Has Reunited §WRu§!§Bss§!§Ria§!"
+ 
+ PAV_novosibirsk_war_preparation_shukshin:0 "Shukshin's War Preparation"
+ 
+ # National Reformation
+
+ PAV_the_national_reformation:0 "The National Reformation"
  
  # Peace Deals
  
  RUS_total_russian_peace:0 "Demand §RGerman Surrender§!"
  RUS_shukshin_victory_path:0 "Shukshin Demands §RGerman Surrender§!"
+ RUS_pokryshkin_victory_path:0 "Pokryshkin Demands §RGerman Surrender§!"
 
  #Warlord Development decisions
  warlord_development_decision_category:0 "Warlord Development"
@@ -2057,7 +2069,7 @@
 # Second West Russian War #
 
  RUS.6000.t:0 "The Treaty of Riga"
- RUS.6000.desc:0 "Our staggering advance into the lands of Reichs have stunned the globe, the Germans especially. The Germans have approached our government with an offer. To avoid nuclear war, the Germans are prepared to accept our Eastern European claims on the condition that Germany proper would be left untouched by the treaty."
+ RUS.6000.desc:0 "Our staggering advance into the lands of the Reich have stunned the globe, the Germans especially. The Germans have approached our government with an offer. To avoid nuclear war, the Germans are prepared to accept our Eastern European claims on the condition that Germany proper would be left untouched by the treaty."
  RUS.6000.a:0 "Tell Germania we accept"
  
  RUS.6001.t:0 "Germany Demands Our Surrender!"
@@ -2068,4 +2080,8 @@
  RUS.6002.t:0 "The Treaty of Riga"
  RUS.6002.desc:0 "The German foreign minister entered the manor that was refered by the local Latvians as the House of the Black Heads. He navigated around the building, watched closely by Russian soldiers who guarded every hallway. The minister found himself in what looked to be a study. Waiting patiently in the room was the Federation's most famous Field Marshall.\n\nAlexander Novikov.\n\n"Ahh, you finally made it" the Russian greeted, clasping his hands togehter as he approached the foreign minister. "Let's make this quick, shall we? President Shukshin wants me back in Novosibirsk as soon as possible. Please, come." The Foreign Minister nodded, following the General toward the desk near the window. On it, the German saw the Treaty of Riga.\n\nThe document that would lose Germany the east. The decision to give up Eastern Europe would forever baffle the minister. Millions of lives had been spent taking over the east over the decades. Why just give it up? "Here it is. As you can see, I have already signed on behalf of President Shukshin. I'll leave you in the capable hands of General Kozin, he'll see to it that you are safely returned to Germany. Oh, and one more thing!"
  RUS.6002.a:0 "Just sign right there, German"
+ 
+ RUS.6003.t:0 "The Treaty of Riga"
+ RUS.6003.desc:0 "The Foreign Minister for Germany awaited outside the doors of the office of a Russian officer. He adjusted his tie and took a glance at his watch, wondering what was taking so long? After a few more minutes of waiting, the door opened up, revealing a young man.\n\n”Right this way” the young man spoke calmly before stepping aside to allow the German through. The foreign minister spoke his thanks before entering the room. Inside, the minister could see the Federations most famed Field Marshal leaning on a desk.\n\nAlexander Novikov.\n\n "Sorry to keep you waiting, I was just on the phone with the President" the General said as he turned to face the German. "Why don’t we make this quick, shall we? President Pokryshkin wants me back in Novosibirsk and it’s best not to keep him waiting for long”. The Foreign Minister nodded, walking over to the desk where the document of the Treaty of Riga was.\n\nThe decision to give up Eastern Europe would haunt Germany for decades to come. So much sacrifice over the years only for all of Germany’s hard work to be given away. "The Federation has already signed the document as you can see. The only thing left is Germany’s signature” the General stated. The minister nodded as he searched for a pen.\n\n “Now, I best be leaving but I’ll be leaving you in my protégé’s capable hands”. The German looked back at the soldier for a moment. “What’s his name” the German asked. The soldier stepped forward, his gaze cold as he stared down the German minister.\n\n”Vladimir Putin”"
+ RUS.6003.a:0 ""A Meek German Minister""
  

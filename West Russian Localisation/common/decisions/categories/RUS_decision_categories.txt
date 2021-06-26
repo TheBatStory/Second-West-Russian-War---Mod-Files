@@ -475,3 +475,19 @@ RUS_2WRW_category = {
 	visible = {
 	}
 }
+
+RUS_intervention_category = {
+
+	icon = GFX_decision_category_border_conflicts
+	picture = GFX_RUS_decision_political_situation
+	priority = 9
+
+	allowed = {
+		always = yes
+		OR = {
+			is_russian_nation = yes
+		}
+	}
+	visible = {
+	}
+}

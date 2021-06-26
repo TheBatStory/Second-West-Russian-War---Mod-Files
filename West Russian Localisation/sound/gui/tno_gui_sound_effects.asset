@@ -599,3 +599,21 @@ soundeffect = {
 	sounds = { sound = tno_se_twilight_of_the_gods }
 	volume = 0.75
 }
+
+soundeffect = {
+	name = "tno_se_wrrf_war_declaration"
+	sounds = { sound = tno_se_wrrf_war_declaration }
+	volume = 0.75
+}
+
+soundeffect = {
+	name = "tno_se_sba_war_declaration"
+	sounds = { sound = tno_se_sba_war_declaration }
+	volume = 0.75
+}
+
+soundeffect = {
+	name = "tno_se_serov_war_declaration"
+	sounds = { sound = tno_se_serov_war_declaration }
+	volume = 1
+}

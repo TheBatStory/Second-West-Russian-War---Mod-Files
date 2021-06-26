@@ -10535,7 +10535,25 @@ country_event = {
 	}
 }
 
-country_event = { # The Federation Demands Our Surrender
+country_event = { # The Federation Demands Our Surrender - Pokryshkin
+	id = reich.2003
+	immediate = { log = "[GetDateText]: [Root.GetName]: event reich.2003" }
+	title = reich.2003.t
+	desc = reich.2003.desc
+	picture = GFX_report_event_peace_deal
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { # Tell the Russians we're prepared to negotiate
+		name = reich.2003.a
+		RUS = {
+			country_event = { id = RUS.6003 }
+		}
+	}
+}
+
+country_event = { # The Federation Demands Our Surrender - Shukshin
 	id = reich.2002
 	immediate = { log = "[GetDateText]: [Root.GetName]: event reich.2002" }
 	title = reich.2002.t

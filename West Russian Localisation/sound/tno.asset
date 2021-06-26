@@ -99,6 +99,12 @@ category = {
 		tno_se_novosibirsk_victory
 		#Hyperborea
 		tno_se_twilight_of_the_gods
+		#WRRF
+		tno_se_wrrf_war_declaration
+		#FREE TERRITORY
+		tno_se_sba_war_declaration
+		#KOMI
+		tno_se_serov_war_declaration
 		
 		##USE SUPER_EVENT_MAKER_GUI IN USEFUL PYTHON PROGRAMS TO MAKE NEW SUPER EVENTS##
 		crabrave

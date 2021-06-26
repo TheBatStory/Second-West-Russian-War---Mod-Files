@@ -3915,7 +3915,7 @@ RUS_coring_category = {
 			political_power_gain = -0.15
 		}
 
-		cost = 231
+		cost = 25
 
 		ai_will_do = {
 			factor = 100
