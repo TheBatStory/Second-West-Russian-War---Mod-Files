@@ -2507,4 +2507,76 @@ scripted_gui = {
 			}
 		}
 	}
+	
+	TNO_SG_big_event_kaganovich_war_declaration = {
+		context_type = player_context
+		window_name = "TNO_SG_big_event_kaganovich_war_declaration"
+
+		visible = {
+			has_country_flag = big_event_kaganovich_war_declaration
+		}
+	}
+
+	TNO_SG_big_event_frame_kaganovich_war_declaration = {
+		context_type = player_context
+		window_name = "TNO_SG_big_event_frame_kaganovich_war_declaration"
+
+		visible = {
+			has_country_flag = big_event_kaganovich_war_declaration
+		}
+
+		effects = {
+			Option_click = {
+				clr_country_flag = big_event_kaganovich_war_declaration
+			}
+		}
+	}
+	
+	TNO_SG_big_event_werbell_war_declaration = {
+		context_type = player_context
+		window_name = "TNO_SG_big_event_werbell_war_declaration"
+
+		visible = {
+			has_country_flag = big_event_werbell_war_declaration
+		}
+	}
+
+	TNO_SG_big_event_frame_werbell_war_declaration = {
+		context_type = player_context
+		window_name = "TNO_SG_big_event_frame_werbell_war_declaration"
+
+		visible = {
+			has_country_flag = big_event_werbell_war_declaration
+		}
+
+		effects = {
+			Option_click = {
+				clr_country_flag = big_event_werbell_war_declaration
+			}
+		}
+	}
+	
+	TNO_SG_big_event_wrrf_victory = {
+		context_type = player_context
+		window_name = "TNO_SG_big_event_wrrf_victory"
+
+		visible = {
+			has_country_flag = big_event_wrrf_victory
+		}
+	}
+
+	TNO_SG_big_event_frame_wrrf_victory = {
+		context_type = player_context
+		window_name = "TNO_SG_big_event_frame_wrrf_victory"
+
+		visible = {
+			has_country_flag = big_event_wrrf_victory
+		}
+
+		effects = {
+			Option_click = {
+				clr_country_flag = big_event_wrrf_victory
+			}
+		}
+	}
 }

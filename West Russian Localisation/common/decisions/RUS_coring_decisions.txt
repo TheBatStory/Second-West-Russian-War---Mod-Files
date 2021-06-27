@@ -695,6 +695,7 @@ RUS_coring_category = {
 			log = "[GetDateText]: [Root.GetName]: Decision RUS_coring_integrate_karelia remove"
 			add_state_core = 215
 			add_state_core = 216
+			add_state_core = 146
 			#add_stability = 0.025
 		}
 	}

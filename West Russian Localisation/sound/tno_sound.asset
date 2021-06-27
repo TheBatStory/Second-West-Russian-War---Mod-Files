@@ -557,3 +557,21 @@ sound = {
 	file = "menu/tno_se_serov_war_declaration.wav"
 	always_load = no
 }
+
+sound = {
+	name = "tno_se_kaganovich_war_declaration"
+	file = "menu/tno_se_kaganovich_war_declaration.wav"
+	always_load = no
+}
+
+sound = {
+	name = "tno_se_werbell_war_declaration"
+	file = "menu/tno_se_werbell_war_declaration.wav"
+	always_load = no
+}
+
+sound = {
+	name = "tno_se_wrrf_victory"
+	file = "menu/tno_se_wrrf_victory.wav"
+	always_load = no
+}

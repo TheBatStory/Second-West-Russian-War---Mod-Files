@@ -22819,7 +22819,29 @@ news_event = { #Russian Victory - Generic
 	
 	option = {
 		name = WORLD.40001.b
-		trigger = { TAG = RUS }
+		trigger = {
+			original_tag = KIR
+			original_tag = SAM
+			original_tag = NIK
+			original_tag = PRM
+
+			original_tag = OMS
+			original_tag = ISH
+			original_tag = TOB
+
+			original_tag = ERS
+			original_tag = KHA
+			original_tag = PAV
+			original_tag = SVO
+			original_tag = KEM
+			
+			original_tag = WCH
+			original_tag = AMR
+			original_tag = MAG
+			original_tag = OMO
+			original_tag = BRY
+			original_tag = IRK
+		}
 		set_country_flag = big_event_total_russian_victory
 	}
 
@@ -22827,6 +22849,12 @@ news_event = { #Russian Victory - Generic
 		name = WORLD.40001.c
 		trigger = { TAG = GER }
 		set_country_flag = big_event_total_russian_victory
+	}
+	
+	option = {
+		name = WORLD.40001.d
+		trigger = { original_tag = WRS }
+		set_country_flag = big_event_wrrf_victory
 	}
 }
 
@@ -23068,6 +23096,45 @@ news_event = { #Federation Victory! - Pokryshkin
 	}
 }
 
+# Magadan
+
+news_event = { #Declaration of War - WerBell
+	id = WORLD.40009
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.40009"}
+	title = WORLD.40009.t
+	desc = WORLD.40009.desc
+	picture = GFX_news_event_russia_novosibirsk_unification
+	
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.40009.a
+		set_country_flag = big_event_werbell_war_declaration
+		trigger = {
+			NOT = {
+				TAG = RUS
+				TAG = GER
+			}
+		}
+	}
+	
+	option = {
+		name = WORLD.40009.b
+		set_country_flag = big_event_werbell_war_declaration
+		trigger = {
+			TAG = RUS
+		}
+	}
+	
+	option = {
+		name = WORLD.40009.c
+		set_country_flag = big_event_werbell_war_declaration
+		trigger = {
+			TAG = GER
+		}
+	}
+}
+
 news_event = { #Declaration of War - Generic
 	id = WORLD.40003
 	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.40003"}
@@ -23102,7 +23169,6 @@ news_event = { #Declaration of War - Generic
 			original_tag = NIK
 			original_tag = PRM
 
-			original_tag = ISH
 			original_tag = TOB
 
 			original_tag = ERS
@@ -23112,6 +23178,7 @@ news_event = { #Declaration of War - Generic
 			original_tag = WCH
 			original_tag = AMR
 			original_tag = MAG
+			
 			original_tag = OMO
 			original_tag = BRY
 			original_tag = IRK
@@ -23150,5 +23217,23 @@ news_event = { #Declaration of War - Generic
 			has_country_leader = {
 				name = "Ivan Serov"
 		}
+	}
+	
+	option = {
+		name = WORLD.40003.h
+		set_country_flag = big_event_twilight_of_the_gods
+		trigger = {
+			original_tag = PRM
+			has_country_leader = {
+				name = "Velimir"
+				ruling_only = yes
+			}
+		}
+	}
+	
+	option = {
+		name = WORLD.40003.i
+		set_country_flag = big_event_kaganovich_war_declaration
+		trigger = { original_tag = ISH }
 	}
 }

@@ -105,8 +105,6 @@
 
  POLITICS_MITCHELL_WERBELL_70S_DESC:0 "Against all odds, Mitchell Livingston WerBell III has succeeded. Thanks to luck, skill, and an abundance of American aid, the United States of Russia is now one of the largest nations on the planet. To state that the world is shocked would be an understatement. Analysts are still struggling to figure out how his government hasn't already collapsed from the sheer ridiculousness of its existence, all while the man himself sits upon a veritable mountain of money, laughing all the way.\n\nSomeone like WerBell, though, never truly rests. Constantly jumping between managing internal affairs, foreign connections, and personal matters, the mercenary is clearly not content with merely unifying Russia. His commitment to the army without borders is unwavering, but so is his support for bringing American-style democracy to Russia. It remains to be seen how these contradictions will be addressed, but some are beginning to hope WerBell, for all his flaws, might actually bring something good to the exhausted Russian people.\n\nDecried as an American asset by many, WerBell finds himself with both Japan and Germany wary of - if not outright hostile to - his regime. Though he certainly loves his home country, WerBell is not nearly as leashed as some fear or would like him to be. He is a man with an army and a vision, and the world awaits his next move with bated breath."
  
- POLITICS_EMPTY_POSITION_DESC:0 "The Office of The President of The United States of Russia remains open, waiting for WerBell's successor, whomever it may be, to take the title and lead Russia into a new era."
- 
  ### Leader Traits ###
  the_knyaz:0 "The Vozhd of the Heart"
  
@@ -128,7 +126,6 @@
  # Intelligence
  MAG_Nancy_Wake_hog:0 "Nancy Wake"
  MAG_Gordon_Ingram_hog:0 "Gordon Ingram"
- MAG_WerBell_hog:0 "Mitchell WerBell III"
  MAG_Bernardo_De_Torres_for:0 "Bernardo De Torres"
  MAG_Serge_Obolensky_eco:0 "Serge Obolensky"
  MAG_Boris_Pash_sec:0 "Boris Pash"
@@ -536,11 +533,6 @@
  MAG_WA_merc_army_conscription_factor_5_tt:0 "§YConscription§!: §G+5.00%§!\n"
  MAG_WA_merc_army_army_org_factor_2_5_tt:0 "§YArmy Organization§!: §G+2.50%§!\n"
  MAG_WA_merc_army_trade_opinion_factor_5_tt:0 "§YTrade Opinion§!: §G+5.00%§!\n"
-
- MAG_WA_more_mercenaries_tt:0 "Unlocks focus §YThe World Calls For Wetwork (Again...)§!"
- MAG_WA_more_mercenaries_flag:0 "We have deicded to focus on Mercenaries in our army."
- MAG_WA_a_russian_army_tt:0 "Unlocks focus §YMeet The New Russian Armed Forces§!"
- MAG_WA_a_russian_army_flag:0 "We have decided to focus on Russia and her people for our army"
  
  MAG_WA_american_economy_tt:0 "Unlocks focus §YAn Open Door Policy§!\n"
  MAG_WA_american_economy_flag:0 "We have decided to focus on trade with the United States."
@@ -2053,10 +2045,10 @@
  MAG_WA_the_world_calls_for_wetwork_again_desc:0 "The world needs us, they will always need us. \n\nLets Expand our Mercenary hiring and training even more. We will be a Russian State with a non Russian military."
  
  MAG_WA_the_successes_of_the_warlords:0 "The Successes Of The Warlords"
- MAG_WA_the_successes_of_the_warlords_desc:0 "Russia's former warlords all had many different and very unqiue militiaries, each suited for their specific situation, while also remaining highly adaptable. \n\nOur Mercenaries are already more adaptable than the regular soldier, but I think we can learn a thing or two from these failed states."
+ MAG_WA_the_successes_of_the_warlords_desc:0 "Russia's former warlords all had many different and very unqiue militiaries, each suited for their specific situation, while also remaning. Our Mercenaries are already more adaptable than the regular soldier, but I think we can learn a thing or two from these failed states."
  
  MAG_WA_teach_the_russians_english:0 "Teach The Russians English"
- MAG_WA_teach_the_russians_english_desc:0 "We have a lot of Russians in our army, but most of the upper echelons are made up of our foreign mercenaries. It makes things very confusing when command speaks mostly English and our soldiers mostly speak Russians. \n\nWe can fix this by having mandatory English classes for all soldiers, in fact let's go a step further, make English the second official langauge of The United States of Russia!"
+ MAG_WA_teach_the_russians_english_desc:0 "We have a lot of Russians in our army, but most of the upper echelons are made up of our foreign mercenaries. It makes things very confusing when command speaks mostly English and our soldiers mostly speak Russians. \n\nWe Can fix this by having mandatory English classes for all soldiers, in fact let's go a step further, make English the second official langauge of The United States of Russia!"
  
  MAG_WA_finally_get_paid:0 "Finally Get Paid"
  MAG_WA_finally_get_paid_desc:0 "Our mercenary work across the world has, for the moment, been a 'work now, pay later' type of situation, easy source of marketing \n\n'If You Don't Win, You Don't Pay!' \n\nBut right now, our new state is need of money, and many of the civil wars we have bled in are over, lets demand those payments!"
@@ -2077,9 +2069,9 @@
  MAG_WA_teach_the_mercenaries_russian_desc:0 "While we may be downscalling our mercenary forces, a lot of them either can barely speak Russian or don't speak the langauge at all. We need to change this, and fast. We'll make sure that every mercenary in our employ can speak Russian as well as any native. \n\nHell, even WerBell agreed to finally learn to speak the langauge."
  
  MAG_WA_forgive_the_mercenary_debts:0 "Forgive The Mercenary Debts"
- MAG_WA_forgive_the_mercenary_debts_desc:0 "We are owed a lot of money from our work in warzones all across the work, but for the time being we were working with a "work now, pay later" scheme, while the money would be nice, the increased local Russian influence in our army wants us to forgive these debts and phase out our mercenary work and focus more on the new national army, while WerBell is midly upset at this demand, he has relented and agreed to forgive the debts for the work the mercenaries have done around the globe."
+ MAG_WA_forgive_the_mercenary_debts_desc:0 "We are owed a lot of money from our work in warzones all across the work, but for the time being we were working with a "work now, pay later" scheme, while the money would be nice, the increased local Russian influence in our army wants us to forgive these debts and phase out our mercenary work and focus more on the new national army, while WerBell is midly upset at this news, he has agreed to forgive the debts for the work."
  
- MAG_WA_an_old_kind_of_weapon_with_a_twist:0 "An Old Kind Of Weapon (With A Twist)"
+ MAG_WA_an_old_kind_of_weapon_with_a_twist:0 "An Old Of Kind Weapon (With A Twist)"
  MAG_WA_an_old_kind_of_weapon_with_a_twist_desc:0 "A scientist by the name of Aleksandr has come to us with an interesting idea for a new weapon he has been working on, his idea is batshit insane and would never work, but he has some interesting ideas for better armour for our tanks."
  
  MAG_WA_operation_patriots:0 "Operation: §RPatriots§!"
@@ -2089,7 +2081,7 @@
  MAG_WA_keeping_our_promises_desc:0 "WerBell had promised that Russia will get American style freedom, both personal and political, while there has been some reforms, the promised American style democracy has yet to fully blossom, let's keep going and give the people what they want!"
  
  MAG_WA_stepping_down:0 "Stepping Down"
- MAG_WA_stepping_down_desc:0 "It's time WerBell steps down as President of the United States of Russia. \n\nIn order to properly uphold his ideals, WerBell has agreed to step down as the President, he will continue to run the country for now as an interrum leader, but the position of President will be now officially open, ready for when we have our first election."
+ MAG_WA_stepping_down_desc:0 "It's time WerBell steps down as President of the United States of Russia. \n\nIn Order to properly uphold his ideals, WerBell has agreed to step down as the President, he will continue to run the country for now as an interrum leader, but the position of President will be now officially open, ready for when we have our first election."
  
  MAG_WA_for_the_people:0 "For The People"
  MAG_WA_for_the_people_desc:0 "We must write a consitution for the Russian people, so they can enjoy American \n\n§RFR§!§WEED§!§BOM§!"
@@ -2098,7 +2090,7 @@
  MAG_WA_an_american_constitution_desc:0 ""We the People of these United States of Russia, in Order to form a more perfect Union, establish Justice, insure domestic Tranquility, provide for the common defence, promote the general Welfare, and secure the Blessings of Liberty to ourselves and our Posterity, do ordain and establish this Constitution for the United States of Russia""
  
  MAG_WA_by_the_people:0 "By The People"
- MAG_WA_by_the_people_desc:0 "The Russian people must write a constitution for themselves, one styled off the US constituion, but made to do right by Russia and her people."
+ MAG_WA_by_the_people_desc:0 "The Russian people must write a constitution for themselves, one styled off the US constituion, but changed to do right by Russia and her people."
  
  MAG_WA_a_russian_constitution:0 "A Russian Consitution"
  MAG_WA_a_russian_constitution_desc:0 ""We hold these truths to be self-evident, that all Russians are created equal, that they are endowed by their creator with certain unalienable rights, that among these are life, liberty and the pursuit of happiness.""
@@ -2107,10 +2099,10 @@
  MAG_WA_a_glorious_republic_desc:0 "We have created a new glorious republic \n\n§YGod Bless The US-Of-R!§!"
  
  MAG_WA_elections:0 "Elections?"
- MAG_WA_elections_desc:0 "We have our new constituion, but we are still lacking a President. \n\nWe are not ready to host elections yet, but we can definitely make the preparations!"
+ MAG_WA_elections_desc:0 "We have our new constituion, but we are still lacking a President. \n\nWe are not ready to host elections yet, but we can definetly make the preparations!"
  
  MAG_WA_first_things_first:0 "First Things First" 
- MAG_WA_first_things_first_desc:0 "We have to put our preparations on hold for now, there's something much more important demanding our attention..."
+ MAG_WA_first_things_first_desc:0 "We have to put our preparations on hold for now, there's something much more important demanding our attnetion..."
  
  MAG_WA_an_industry_to_rival_the_reich:0 "An Industry To Rival The Reich"
  MAG_WA_an_industry_to_rival_the_reich_desc:0 "We must keep building up our economy in order to compete with the Reich and the rest of the world at large, we should continue our past economic ideas in order to industralise our fledging republic."
@@ -2119,7 +2111,7 @@
  MAG_WA_a_wide_open_door_desc:0 "Our American style economy worked with very well for us when we were trying it in Siberia, let us Amercanise the rest of Russia. \n\n§Ythe streets will run black with the sweet sugary drinks of our friends!§!"
  
  MAG_WA_a_meeting_with_the_president:0 "A Meeting With The President"
- MAG_WA_a_meeting_with_the_president_desc:0 "Whether the USA has acknowledged or ignored us in the past, they have to publically support our existence now that we are the only power in free Russia. \n\nLet's setup a meeting with the current US president, this will be a good way to distance ourselves from the CIA while not totally burning all our bridges."
+ MAG_WA_a_meeting_with_the_president_desc:0 "Whether the USA has acknowledged or ignored us in the past, they have to publically support our existence now that we are the only power. \n\nLet's setup a meeting with the current US president, this will be a good way to distance ourselves from the CIA while not totally burning all our bridges."
  
  MAG_WA_purchase_some_american_factories:0 "Purchase Some American Factories"
  MAG_WA_purchase_some_american_factories_desc:0 "We need to prepare for future war and battles, let's use our american contacts to give us an edge in manufacturing."
@@ -2134,7 +2126,7 @@
  MAG_WA_a_glorious_american_economy_desc:0 "We have finished updating all of Russia to our American standard. \n\nOur people wear American jeans and listen to American rock music"
  
  MAG_WA_the_wealth_of_russia:0 "The Wealth Of Russia"
- MAG_WA_the_wealth_of_russia_desc:0 "The Wealth of Russia belongs to Russia and her people, not some American company trying to make a quick buck. \n\nLets get the rest of Russia up to standard with our industralisation plans."
+ MAG_WA_the_wealth_of_russia_desc:0 "The Wealth of Russia belongs to Russia and her people, not some American company trying to make a quick buck. \n\nLets get the rest of Russia up to standard with our industralisation plans.'
  
  MAG_WA_on_our_own_two_feet:0 "On Our Own Two Feet" 
  MAG_WA_on_our_own_two_feet_desc:0 "We must make sure we are fully economic independent, new factories, more resource extraction, we will create an economy larger any country that has came before!"
@@ -2146,7 +2138,7 @@
  MAG_WA_russian_steel_desc:0 "§gRussian Steel!§! \n\n§GRussian Soil!§! \n\n§RRussian Blood!§!"
  
  MAG_WA_trans_russian_railway_network:0 "A Trans-Russian Railway Network" 
- MAG_WA_trans_russian_railway_network_desc:0 "Let us build on the ruins of the old Trans-Siberian Railway Network and build an even more expansive system. \n\n We will have the biggest, grandest, most glorious railway to ever exist!"
+ MAG_WA_trans_russian_railway_network_desc:0 "Let us build on the ruins of the old Trans-Siberian Railway Network and build an even more expansive sysstem. \n\n We will have the biggest, grandest, most glorious railway to ever exist!"
  
  MAG_WA_a_glorious_russian_economy:0 "A Glorious §RRussian§! Economy"
  MAG_WA_a_glorious_russian_economy_desc:0 "We have finished updating all of Russia to our standard. \n\n§YWe Truely Have An Economy To Rival The World§!"
@@ -2154,127 +2146,6 @@
  MAG_WA_the_final_call:0 "The Final Call"
  MAG_WA_the_final_call_desc:0 "\n\n§YCan You Hear The Call? \n\n \n\n§RTHIS IS OUR DESTINY!§!"
  
- ### WerBell Despot Pre2WRW ###
- MAG_WA_soldaty_bez_granits:0 "Soldaty Bez Granits"
- MAG_WA_soldaty_bez_granits_desc:0 "add"
- 
- MAG_WA_we_call_for_wetwork:0 "§YWE§! Call For Wetwork"
- MAG_WA_we_call_for_wetwork_desc:0 "add"
- 
- MAG_WA_and_they_answered:0 "And §YTHEY§! Answered" 
- MAG_WA_and_they_answered_desc:0 "add"
- 
- MAG_WA_a_weapon_to_surpass_nukes:0 "A Weapon To Surpass The Nuke?" 
- MAG_WA_a_weapon_to_surpass_nukes_desc:0 "add"
- 
- MAG_WA_if_you_fail_just_keep_trying:0 "If You Fail, Just Keep Trying!" 
- MAG_WA_if_you_fail_just_keep_trying_desc:0 "add"
- 
- MAG_WA_third_times_the_charm:0 "Third Time's The Charm...?" 
- MAG_WA_third_times_the_charm_desc:0 "add"
- 
- MAG_WA_flight_of_the_valkyries:0 "The Flight Of The Valkyries" 
- MAG_WA_flight_of_the_valkyries_desc:0 "add"
- 
- MAG_WA_the_worlds_first_and_last_option:0 "The §BWorld's§! First And Last Option" 
- MAG_WA_the_worlds_first_and_last_option_desc:0 "add"
- 
- MAG_WA_let_them_in:0 "Let Them In?"
- MAG_WA_let_them_in_desc:0 "add"
- 
- MAG_WA_all_russian_merc_corp:0 "All Russian Merc Corp"
- MAG_WA_all_russian_merc_corp_desc:0 "add"
- 
- MAG_WA_a_rising_star:0 "A Rising Star"
- MAG_WA_a_rising_star_desc:0 "add"
- 
- MAG_WA_borrow_some_theory:0 "Borrow Some Theory"
- MAG_WA_borrow_some_theory_desc:0 "add"
- 
- MAG_WA_a_russian_military:0 "A Russian Military?" 
- MAG_WA_a_russian_military_desc:0 "add"
- 
- MAG_WA_russias_first_and_last_option:0 "§RRussia's§! First And Last Option"
- MAG_WA_russias_first_and_last_option_desc:0 "add"
- 
- MAG_WA_a_betrayal_or_an_evolution:0 "A Betrayal? Or An Evolution?" 
- MAG_WA_a_betrayal_or_an_evolution_desc:0 "add" 
- 
- MAG_WA_stepping_up:0 "Stepping Up"
- MAG_WA_stepping_up_desc:0 "add"
- 
- MAG_WA_evolution:0 "Evolution"
- MAG_WA_evolution_desc:0 "add"
- 
- MAG_WA_anarchism_no_this_is_just_self_determination:0 "Anarchism?, No, This Is Simply Self Determination"
- MAG_WA_anarchism_no_this_is_just_self_determination_desc:0 "add"
- 
- MAG_WA_every_man_a_soldier_of_his_own_fortunes:0 "Every Man, A Solider Of His Own Fortunes" 
- MAG_WA_every_man_a_soldier_of_his_own_fortunes_desc:0 "add"
- 
- MAG_WA_remove_the_regulations:0 "Remove The Regulations"
- MAG_WA_remove_the_regulations_desc:0 "add"
- 
- MAG_WA_a_new_freer_future:0 "A New, Freer Future" 
- MAG_WA_a_new_freer_future_desc:0 "add"
- 
- MAG_WA_stick_to_our_guns:0 "Sticking To Our Guns"
- MAG_WA_stick_to_our_guns_desc:0 "add"
- 
- MAG_WA_some_token_reforms:0 "Some Token Reforms"
- MAG_WA_some_token_reforms_desc:0 "add"
- 
- MAG_WA_not_so_fast:0 "Not So Fast"
- MAG_WA_not_so_fast_desc:0 "add"
- 
- MAG_WA_the_russian_people:0 "The Russian People"
- MAG_WA_the_russian_people_desc:0 "add"
- 
- MAG_WA_the_mercenaries:0 "The Mercenaries"
- MAG_WA_the_mercenaries_desc:0 "add"
- 
- MAG_WA_their_land_our_wealth:0 "§RTheir§! Land, §YOur§! Wealth"
- MAG_WA_their_land_our_wealth_desc:0 "add"
- 
- MAG_WA_exploit_their_riches:0 "Exploit Their Riches"
- MAG_WA_exploit_their_riches_desc:0 "add"
- 
- MAG_WA_with_cia_help:0 "With §BCIA§! Help"
- MAG_WA_with_cia_help_desc:0 "add"
- 
- MAG_WA_how_far_do_we_go:0 "How Far Do We Go?"
- MAG_WA_how_far_do_we_go_desc:0 "add"
- 
- MAG_WA_a_swiss_bank_account:0 "A Swiss Bank Account"
- MAG_WA_a_swiss_bank_account_desc:0 "add"
- 
- MAG_WA_convert_the_factories:0 "Convert The Factories"
- MAG_WA_convert_the_factories_desc:0 "add"
- 
- MAG_WA_all_the_gold_for_werbell:0 "All The §YGold§! For WerBell" 
- MAG_WA_all_the_gold_for_werbell_desc:0 "add"
- 
- MAG_WA_use_their_riches:0 "Use Their Riches"
- MAG_WA_use_their_riches_desc:0 "add" 
- 
- MAG_WA_with_american_help:0 "With §BAmerican§! Help"
- MAG_WA_with_american_help_desc:0 "add"
- 
- MAG_WA_how_far_can_we_go:0 "How Far Can We Go?"
- MAG_WA_how_far_can_we_go_desc:0 "add"
- 
- MAG_WA_russian_finance:0 "Russian Finance"
- MAG_WA_russian_finance_desc:0 "add"
- 
- MAG_WA_build_the_factories:0 "Build The Factories"
- MAG_WA_build_the_factories_desc:0 "add"
- 
- MAG_WA_all_the_gold_for_the_state:0 "All The §YGold§! For The State"
- MAG_WA_all_the_gold_for_the_state_desc:0 "add"
- 
- MAG_WA_operation_phantom_pain:0 "Operation: §RPhantom Pain§!"
- MAG_WA_operation_phantom_pain_desc:0 "add"
-  
  ### West Alaska events ###
  westalaska.1.t:0 "Magadan Free Radio - Broadcast 64"
  westalaska.1.desc:0 "Today's radio started without hiccups. The audio, which had been Russian patriotic sounds set to the tune of unmastered sound and constant crackling, was now playing a very soft piano - a classic. Chopin's Nocturne Op. 9, no. 2, the particular favorite of some of the mercenaries that worked in Harbin. It continued for several minutes until the last tone rang, and a voice, smooth, controlled, baritone, took over. "Good evening, people of Siberia," A hint of English accent underlaid its Russian, "This is the new Radio Free Magadan, recently liberated from the Fascists that had lived there for years. If you've just tuned in, this is your host, Stephen, also known as Roastbeef to my French compadres," a carefully controlled laughter, "What funny boys. If you're Russian, or in merc parlance, a local, you can call me Strelok. Simple but effective."\n\nA cough. "Oh, excuse me," the voice said, lowering itself away from the microphone, although the percussions were still audible, "I apologize for the interruption. Now, due to the generosity of our benefactor, Mr. WerBell Esq.," he moved to a whisper, "The esquire is important!" He resumed, "If you have any requests, you can send them to our offices in Magadan, right near beside the old RFP offices. For now," sounds of shuffling paper, "It's now time for Surfin' Safari, by The Beach Boys. This is Strelok, or Roastbeef, signing off."\n\nSmooth rock commenced."
@@ -2597,159 +2468,6 @@
  wa_superregional.13.desc:0 "One chilly night in Magadan, Roger Faulques found himself walking down the street in an attempt to clear his thoughts, and might have seemed to be an ordinary man were he not so clearly extraordinary. Just as he began to finally relax, he saw a strangely familiar face that stared right back at him. "You there... don't I know you?" He asked in imperfect English.\n\nThe other man's face similarly lit up in recognition. "Faulques? Roger Faulques? It is you!" He laughed and took one of Faulques's hands in both of his own. "It's me, Tadeusz Kowalski! I served with you back in the Congo! It's great to see that you're still in one piece. How have you been?"\n\n"As good as can be expected, considering everything that's happened." Faulques replied with a small smile at Kowalski's enthusiasm. "And how are you? Last I heard you were trying to put as much distance between yourself and Poland as possible."\n\n"Yes, well." Kowalski shrugged sadly. "I fear that Poland as we both know it might be lost forever. Whatever becomes of it, I won't be able to recognize it anymore. It's the same with you and France, isn't it? You know how it is."\n\n"Yes, well." Faulques sighed hopelessly. "Ever since Himmler carved out his state... no, ever since we lost the world war, really, it's lost whatever it was that once made it my homeland. We're both soldiers without a place to return to, it seems."\n\n"Then we should do what we can to make Russia into a place any soldier, from lands living or dead, can call home." Kowalski said decisively, surprising Faulques. He patted him on the shoulder and turned to walk away. "It was good to see you, Faulques. Don't give up just yet."\n\nFaulques stood there, stunned, as Kowalski walked off into the distance. "A new homeland for people like us...""
  wa_superregional.13.a:0 "There's no place like home."
  
- ### WerBell Democracy Post Unification ###
- wa_postunificationdem.1.t:0 "A True United States"
- wa_postunificationdem.1.desc:0 "A True United States of Russia \n\nFrom the moment Mitchell WerBell the III seized control of Magadan in the 60s, the mercenary had two goals in mind. The reunification of what remained of the lands of Russia and the creation of a nation much like his homeland of America. \n\nThe United States of Russia. \n\nWerBell has made great progress in reforming the mercenary state on the fringes of Siberia into a vast nation that is slowly beginning to resemble the United States of America but alas, there is much work to do if that goal is to be achieved. \n\nThere is the question of the native Russians who are obviously not American and are largely not familiar with the American Dream beyond whispers and rumours that had made its way into the nation. This has left WerBell questioning the feasibility of creating an Americanised Russian state. Should he continue to follow the footsteps of his homeland or would it be better to just forgo the idealism and build a nation a Russian can call home?"
- wa_postunificationdem.1.a:0 "Is it not just so... Grand?"
- 
- wa_postunificationdem.2.t:0 "A communiqué from command"
- wa_postunificationdem.2.desc:0 "Our generals have submitted two proposals for us to look into. \n\nThe first and the one WerBell likes the best, is an expansion of our mercenary services to an even bigger degree. \n\nAnd the second, a proposal that while WerBell did not like the sound of at all, admitted it did have some merit. A slow transition from the use of mercenaries to an actual standing Russian army. \n\nBoth of these proposals came with their ups and downs, WerBell will have to pick carefully"
- wa_postunificationdem.2.a:0 "Let's expand our Mercenaries!"
- wa_postunificationdem.2.b:0 "Let's build an a actual Russian Army"
- 
- wa_postunificationdem.3.t:0 "The World Will Always Need Us" 
- wa_postunificationdem.3.desc:0 "Add Description here"
- wa_postunificationdem.3.a:0 "And We Answered" 
-
- wa_postunificationdem.4.t:0 "A Warlord's Army"
- wa_postunificationdem.4.desc:0 "Add description here"
- wa_postunificationdem.4.a:0 "add description here"
-
- wa_postunificationdem.5.t:0 "A Lesson In English"
- wa_postunificationdem.5.desc:0 "Add description here"
- wa_postunificationdem.5.a:0 "English, The World's Lingua Franca"
-
- wa_postunificationdem.6.t:0 "Finally Some Goddamn Payment!"
- wa_postunificationdem.6.desc:0 "add description here"
- wa_postunificationdem.6.a:0 "Rolling in the Benjamins"
-
- wa_postunificationdem.7.t:0 "The Metal Gears Clunk Along"
- wa_postunificationdem.7.desc:0 "Add Description here"
- wa_postunificationdem.7.a:0 "A Miserable Failure"
- 
- wa_postunificationdem.8.t:0 "A Mission to Remember"
- wa_postunificationdem.8.desc:0 "I gave my life, not for honour, but for youuuuuuuuuuuu"
- wa_postunificationdem.8.a:0 "Snake EATEEEEEEEERRRRRRRRRRRRRRR"
- 
- wa_postunificationdem.9.t:0 "From Russia, With Love"
- wa_postunificationdem.9.desc:0 "add description here"
- wa_postunificationdem.9.a:0 "A Russian Army for a Russian State."
- 
- wa_postunificationdem.10.t:0 "The Soviet Warmachine" 
- wa_postunificationdem.10.desc:0 "add description here"
- wa_postunificationdem.10.a:0 "We Keep Marching On"
- 
- wa_postunificationdem.11.t:0 "A Lesson In Russian"
- wa_postunificationdem.11.desc:0 "add description here"
- wa_postunificationdem.11.a:0 "WerBell теперь говорит по-русски?"
-
- wa_postunificationdem.12.t:0 "A Confused Clientele"
- wa_postunificationdem.12.desc:0 "add description here"
- wa_postunificationdem.12.a:0 "I mean, at least people like us more?"
-
- wa_postunificationdem.13.t:0 "A Madman and His Mad Ideas"
- wa_postunificationdem.13.desc:0 "add description here"
- wa_postunificationdem.13.a:0 "This weapon couldn't surpass gravity, let alone the world"
-
- wa_postunificationdem.14.t:0 "An ideal is killed, but a new one takes its place"
- wa_postunificationdem.14.desc:0 "add description here"
- wa_postunificationdem.14.a:0 "Some of the mercenaries may leave, but the dream stays"
-
- wa_postunificationdem.15.t:0 "Promises Kept"
- wa_postunificationdem.15.desc:0 "add description here"
- wa_postunificationdem.15.a:0 "Now, where can we go from here?"
-
- wa_postunificationdem.16.t:0 "A Light Resignation"
- wa_postunificationdem.16.desc:0 "add description here"
- wa_postunificationdem.16.a:0 "What We Want"
- wa_postunificationdem.16.b:0 "What They Want"
-
- wa_postunificationdem.17.t:0 "What We Want"
- wa_postunificationdem.17.desc:0 "add description here"
- wa_postunificationdem.17.a:0 "An American Constituion"
-
- wa_postunificationdem.18.t:0 "The Constitution WerBell Thinks Russia Needs"
- wa_postunificationdem.18.desc:0 "add description here"
- wa_postunificationdem.18.a:0 "Hopefully it works?"
-
- wa_postunificationdem.19.t:0 "What They Want" 
- wa_postunificationdem.19.desc:0 "add description here"
- wa_postunificationdem.19.a:0 "A Russian Constitution" 
-
- wa_postunificationdem.20.t:0 "The Contitution Russia Needs" 
- wa_postunificationdem.20.desc:0 "add description here" 
- wa_postunificationdem.20.a:0 "Hopefully it works?" 
- 
- wa_postunificationdem.21.t:0 "The Glorious Republic" 
- wa_postunificationdem.21.desc:0 "add description here"
- wa_postunificationdem.22.a:0 "God Bless this republic"
-
- wa_postunificationdem.22.t:0 "We Need To Host Election"
- wa_postunificationdem.22.desc:0 "add description here" 
- wa_postunificationdem.22.a:0 "We will host elections.... eventually"
-
- wa_postunificationdem.23.t:0 "In A City Formely Known As St. Petersberg" 
- wa_postunificationdem.23.desc:0 "add description here" 
- wa_postunificationdem.23.a:0 "We Have A Calling" 
- 
- wa_postunificationdem.24.t:0 "An Industry To Rival The Reich" 
- wa_postunificationdem.24.desc:0 "add description here" 
- wa_postunificationdem.24.a:0 "Our choice make us who we are" 
- 
- wa_postunificationdem.25.t:0 "Russia, An American Corporation" 
- wa_postunificationdem.25.desc:0 "add description here" 
- wa_postunificationdem.25.a:0 "A door so wide, there is no more door"
- 
- wa_postunificationdem.26.t:0 "The Presidental Welcome"
- wa_postunificationdem.26.desc:0 "add description here"
- wa_postunificationdem.26.a:0 "A Warm Welcome Indeed"
-
- wa_postunificationdem.27.t:0 "Factories For Cash"
- wa_postunificationdem.27.desc:0 "add description here"
- wa_postunificationdem.27.a:0 "What good is money when you don't have enough weapons?"
-
- wa_postunificationdem.28.t:0 "The Miltary Machine Spurns Onwards"
- wa_postunificationdem.28.desc:0 "add description here"
- wa_postunificationdem.28.a:0 "A generation of boys meant to die" 
-
- wa_postunificationdem.29.t:0 "You Know, I Know, We All Know"
- wa_postunificationdem.29.desc:0 "add description here"
- wa_postunificationdem.29.a:0 "It's always good to be prepared
-
- wa_postunificationdem.30.t:0 "A Glorious American Economy"
- wa_postunificationdem.30.desc:0 "add description here"
- wa_postunificationdem.30.a:0 "Back in the U.S. Back in the U.S. Back in the U.S.R!"
-
- wa_postunificationdem.31.t:0 "Russia; A Wealth of A Nation"
- wa_postunificationdem.31.desc:0 "add description here"
- wa_postunificationdem.31.a:0 "An industry for a people"
- 
- wa_postunificationdem.32.t:0 "Cutting Ties"
- wa_postunificationdem.32.desc:0 "add description here" 
- wa_postunificationdem.32.a:0 "Well they could've gone better..."
-
- wa_postunificationdem.33.t:0 "Building Some Brand New Factories" 
- wa_postunificationdem.33.desc:0 "add description here"
- wa_postunificationdem.33.a:0 "Very Shiny"
- 
- wa_postunificationdem.34.t:0 "Russia's Steel" 
- wa_postunificationdem.34.desc:0 "add description here" 
- wa_postunificationdem.34.a:0 "Russian Steel"
- wa_postunificationdem.34.b:0 "Russian Soil"
- wa_postunificationdem.34.c:0 "Russian Blood"
-
- wa_postunificationdem.35.t:0 "Re-building A Network"
- wa_postunificationdem.35.desc:0 "add description here"
- wa_postunificationdem.35.a:0 "Choo Choo"
- 
- wa_postunificationdem.36.t:0 "A Glorious Russian Economy"
- wa_postunificationdem.36.desc:0 "add description here"
- wa_postunificationdem.36.a:0 "We are the world's industrial heartland"
-
- wa_postunificationdem.37.t:0 "HEAR THE CALL"
- wa_postunificationdem.37.desc:0 "add description here"
- wa_postunificationdem.37.a:0 "Will you answer the call?"
-
  #Opinion Modifiers
  MAG_WA_sister_republic:0 "Sister Republic"
 

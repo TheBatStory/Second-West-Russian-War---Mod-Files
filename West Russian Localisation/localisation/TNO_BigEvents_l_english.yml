@@ -376,3 +376,15 @@ BE_SBA_WAR_A: "For Mother Anarchy"
 BE_SEROV_WAR_T: "THE SECOND WEST RUSSIAN WAR"
 BE_SEROV_WAR_D: "We must take from the right nationalism without capitalism and from the left socialism without internationalism.\n-Gregor Strasser"
 BE_SEROV_WAR_A: "Clash of the Titans"
+
+BE_KAGANOVICH_WAR_T: "THE SECOND GREAT PATRIOTIC WAR"
+BE_KAGANOVICH_WAR_D: "Every German soldier must be made to feel that he is living under the muzzle of a Russian gun.\n-Vasily Chuikov"
+BE_KAGANOVICH_WAR_A: "Not One Step Back!"
+
+BE_WERBELL_WAR_T:0 "THE SECOND WEST RUSSIAN WAR"
+BE_WERBELL_WAR_D:0 "I don’t give a damn about being remembered. But if I’ve got to be remembered for something, I’d like to be remembered for being a good military officer and a patriot.\n- -	Mitchell Werbell III"
+BE_WERBELL_WAR_A:0 "Fortune and Glory!"
+
+BE_WRRF_VICTORY_ZHUKOV_T:0 "THE SOVIET UNION VICTORIOUS"
+BE_WRRF_VICTORY_ZHUKOV_D:0 "No one is forgotten. Nothing is forgotten. Let no one forget. Let nothing be forgotten.\n-Olga Berggolts"
+BE_WRRF_VICTORY_ZHUKOV_A:0 "Red Army the Strongest"

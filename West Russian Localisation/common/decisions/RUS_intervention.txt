@@ -12,6 +12,16 @@ RUS_intervention_category = {
 			country_exists = TAJ
 			country_exists = KYR
 			country_exists = TRK
+			if = {
+				NOT = {
+					country_exists = DON
+					country_exists = ARL
+					country_exists = KOK
+					country_exists = SEM
+					country_exists = KAZ
+					country_exists = KOS
+				}
+			}
 			has_global_flag = RUS_national_unification
 		}
 		

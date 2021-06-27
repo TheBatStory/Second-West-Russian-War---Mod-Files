@@ -3464,6 +3464,7 @@ WORLD.40001.desc: "To many, the outbreak of the Second West Russian War was a fu
 WORLD.40001.a: "As one nation falls, another rises"
 WORLD.40001.b: "Years of humiliation finally over"
 WORLD.40001.c: "The Russians will pay one day"
+WORLD.40001.d: "The Red Army the Strongest"
 
 WORLD.40002.t: "Treaty of Vyatka"
 WORLD.40002.desc: "As was expected by millions across the globe, the Wehrmacht has once more, soundly beaten the armies of Russia. Diplomats and Generals from the Reich have gathered in the occupied city of Vyatka to discuss the terms of surrender with the Russian government. After hours of debate with the Russians, the Germans and Russians have signed the Treaty of Vyatka. The terms saw the restoration of the borders of Moskowien and the ceding of Kazan & Samara to the Reickskommissariat. The effects of the treaty on Russia have been devastating for the new Russian government with some international spectators suspecting that the nation of Russia would soon break apart into anarchy and begin a new age of Russian warlordism."
@@ -3478,8 +3479,7 @@ WORLD.40003.b: "No turning back now"
 WORLD.40003.c: "Bring it on, Untermensch!"
 WORLD.40003.d: "Commence the Great Trial!"
 WORLD.40003.e: "Their Land, their People, Their Blood"
-WORLD.40003.f: "Mother Anarchy Loves her Sons"
-WORLD.40004.g: "Clash of the Titans"
+
 
 WORLD.40004.t: "The Liberation of Moscow"
 WORLD.40004.desc: "It has now been confirmed that the city of Moscow, once the capital of Russia, has been liberated by advancing Russian Forces. Muscovites could be seen gathering in the streets cheering their liberators as the Russian army marched down the remains of the Red Square. The Russian Government has declared Moscow is the first step in the nation’s journey to liberating all Russians from their Nazi occupiers. Chaos has erupted from within German High Command as the Heer scrambles to save what remains of RK Moscokien from the advancing Russian forces. Rumours have begun to surface that those within the inner circle of the Fuhrer that Germany are planning to launch their nuclear weapons against the Russian state. The world holds its breath as the Second West Russian War rages across Eastern Europe, but one thing is certain. The scale has tipped in the favour of Russia."
@@ -3512,3 +3512,11 @@ WORLD.40008.desc: "In a shocking turn of events, the All-Russian army has overco
 WORLD.40008.a: "As one superpower falls, another one rises in the east"
 WORLD.40008.b: "Strength and Prosperity"
 WORLD.40008.c: "Is this how Germany dies?
+
+#Magadan
+
+WORLD.40009.t:0 "The United States of Russia Invades the Einheitspakt"
+WORLD.40009.desc:0 "In a strange turn of events, the United States of Russia under the leadership of the mercenary, Mitchell WerBell the III, has declared war on the Einheitspakt. WerBell had made a speach from his home in Magadan, stating that much like his home country has Washington, Russia required Moscow. He futher stated that the Reichskommissariats were illegally occupied by the German Reich and that the USR has every right to liberate their people from oppression before finishing his speech with the words "Ad Bellum!". The Wehrmacht has mobilised in response, moving toward the east and more than prepared to crush this new Russian state. Millions of Eastern Europeans brace themselves as historys greatest rivals battle it out once more."
+WORLD.40009.a:0 "The world holds its breath"
+WORLD.40009.b:0 "Ad Bellum!"
+WORLD.40009.c:0 "Bring it on, Untermensch!"

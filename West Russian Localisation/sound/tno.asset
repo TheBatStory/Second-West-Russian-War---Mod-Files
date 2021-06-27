@@ -101,10 +101,15 @@ category = {
 		tno_se_twilight_of_the_gods
 		#WRRF
 		tno_se_wrrf_war_declaration
+		tno_se_wrrf_victory
 		#FREE TERRITORY
 		tno_se_sba_war_declaration
 		#KOMI
 		tno_se_serov_war_declaration
+		#Tyuman
+		tno_se_kaganovich_war_declaration
+		#WerBell
+		tno_se_werbell_war_declaration
 		
 		##USE SUPER_EVENT_MAKER_GUI IN USEFUL PYTHON PROGRAMS TO MAKE NEW SUPER EVENTS##
 		crabrave

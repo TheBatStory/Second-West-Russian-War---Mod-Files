@@ -10,6 +10,10 @@ RUS_2WRW_category = {
 		visible = {
 			NOT = {
 				original_tag = PAV
+				has_country_leader = {
+					name = "Mitchell WerBell III"
+					ruling_only = yes
+				}
 			}
 			country_exists = GER
 			has_global_flag = RUS_national_unification
@@ -59,6 +63,47 @@ RUS_2WRW_category = {
 			}
 			declare_war_on = {
 				target = OST
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = CAU
+				type = annex_everything
+			}
+		}	
+	}
+	
+	RUS_invade_finland = {
+		allowed = {
+			is_russian_nation = yes
+		}
+			
+		visible = {
+			country_exists = FIN
+			215 = {
+				is_controlled_by  = FIN 
+			}
+			has_global_flag = RUS_national_unification
+		}
+		
+		available = {
+			has_global_flag = RUS_national_unification
+			has_war = no
+			command_power > 24.99
+		}
+		
+		custom_cost_trigger = { command_power > 24.99 }
+		custom_cost_text = decision_cost_25_cp
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		fire_only_once = yes
+		
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: The Third Winter War"
+			declare_war_on = {
+				target = FIN
 				type = annex_everything
 			}
 		}	
@@ -122,6 +167,10 @@ RUS_2WRW_category = {
 				target = OST
 				type = annex_everything
 			}
+			declare_war_on = {
+				target = CAU
+				type = annex_everything
+			}
 		}	
 	}
 	
@@ -181,6 +230,80 @@ RUS_2WRW_category = {
 			}
 			declare_war_on = {
 				target = OST
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = CAU
+				type = annex_everything
+			}
+		}		
+	}
+	
+	# Magadan
+	
+	RUS_werbell_invade_reich = {
+		allowed = {
+			is_russian_nation = yes
+		}
+			
+		visible = {
+			country_exists = GER
+			original_tag = MAG
+			has_country_leader = {
+				name = "Mitchell WerBell III"
+				ruling_only = yes
+			}
+			has_global_flag = RUS_national_unification
+		}
+		
+		available = {
+			#date > 1971.6.01
+			has_global_flag = RUS_national_unification
+			has_war = no
+			command_power > 24.99
+		}
+		
+		custom_cost_trigger = { command_power > 24.99 }
+		custom_cost_text = decision_cost_25_cp
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		fire_only_once = yes
+		
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: The Second West Russian War has begun"
+			
+			every_country = {
+				news_event = { id = WORLD.40009 days = 1 }
+			}
+			declare_war_on = {
+				target = GER
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = MCW
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = MOS
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = VLG
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = UKR
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = OST
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = CAU
 				type = annex_everything
 			}
 		}		

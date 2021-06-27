@@ -7734,7 +7734,7 @@ shared_focus = {
 		focus = MAG_WA_a_glorious_russian_economy
 	}
 	x = 0
-	y = 1.5
+	y = 1
 	relative_position_id = MAG_WA_first_things_first
 	completion_reward = {
 		country_event = { id = wa_postunificationdem.37 }
@@ -8318,7 +8318,7 @@ shared_focus = {
 		focus = MAG_WA_all_the_gold_for_the_state
 	}
 	x = 1.5
-	y = 1.5
+	y = 1
 	relative_position_id = MAG_WA_a_new_freer_future
 	completion_reward = {
 	}

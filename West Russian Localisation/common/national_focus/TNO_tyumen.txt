@@ -4957,5 +4957,446 @@ focus_tree = {
 		}
 	}
 	default = no
-	shared_focus = ISH_affairs_of_the_state
+	focus = ISH_affairs_of_the_state
+	
+	focus = {
+		id = ISH_affairs_of_the_state
+		icon = GFX_TNO_generic_soviet_flag
+		cost = 2
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		x = 9
+		y = 0
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ISH_affairs_of_the_state"
+		}
+	}
+
+	focus = {
+		id = ISH_construct_the_memorial
+		icon = GFX_ISH_Springtime_for_the_Soviet_People
+		cost = 2
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		prerequisite = {
+			focus = ISH_affairs_of_the_state
+		} 
+		x = 0
+		y = 1
+		relative_position_id = ISH_affairs_of_the_state
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ISH_construct_the_memorial"
+		}
+	}
+
+	focus = {
+		id = ISH_convene_the_party
+		icon = GFX_TNO_generic_soviet_coat_of_arms
+		cost = 2
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		prerequisite = {
+			focus = ISH_construct_the_memorial
+		} 
+		x = 0
+		y = 1
+		relative_position_id = ISH_construct_the_memorial
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ISH_convene_the_party"
+		}
+	}
+
+	# No Compromise
+
+	focus = {
+		id = ISH_no_compromise_with_revisonists
+		icon = GFX_ISH_unity_foremost
+		cost = 2
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		prerequisite = {
+			focus = ISH_convene_the_party
+		} 
+		x = 5
+		y = 1
+		relative_position_id = ISH_convene_the_party
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ISH_no_compromise_with_revisonists"
+		}
+	}
+
+	focus = {
+		id = ISH_strengthen_the_nkvd
+		icon = GFX_TNO_generic_soviet_nkvd
+		cost = 2
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		prerequisite = {
+			focus = ISH_no_compromise_with_revisonists
+		} 
+		x = 0
+		y = 1
+		relative_position_id = ISH_no_compromise_with_revisonists
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ISH_strengthen_the_nkvd"
+		}
+	}
+
+	focus = {
+		id = ISH_expand_relocation_programs
+		icon = GFX_ISH_unpopular_decisions
+		cost = 2
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		prerequisite = {
+			focus = ISH_strengthen_the_nkvd
+		} 
+		x = 0
+		y = 1
+		relative_position_id = ISH_strengthen_the_nkvd
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ISH_expand_relocation_programs"
+		}
+	}
+
+	focus = {
+		id = ISH_buy_american_grain
+		icon = GFX_USA_open_up_trade
+		cost = 2
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		prerequisite = {
+			focus = ISH_expand_relocation_programs
+		} 
+		x = 0
+		y = 1
+		relative_position_id = ISH_expand_relocation_programs
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ISH_buy_american_grain"
+		}
+	}
+
+	focus = {
+		id = ISH_meet_with_khrushchev
+		icon = GFX_ISH_new_soviet_spirit
+		cost = 2
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		prerequisite = {
+			focus = ISH_buy_american_grain
+		} 
+		x = 0
+		y = 1
+		relative_position_id = ISH_buy_american_grain
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ISH_meet_with_khrushchev"
+		}
+	}
+
+	focus = {
+		id = ISH_new_soviet_man
+		icon = GFX_ISH_new_soviet_state
+		cost = 2
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		prerequisite = {
+			focus = ISH_strengthen_the_nkvd
+		} 
+		x = -2
+		y = 1
+		relative_position_id = ISH_strengthen_the_nkvd
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ISH_new_soviet_man"
+		}
+	}
+
+	focus = {
+		id = ISH_speak_to_the_army
+		icon = GFX_TNO_generic_Marching_Men_Soviet
+		cost = 2
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		prerequisite = {
+			focus = ISH_new_soviet_man
+		} 
+		x = 0
+		y = 1
+		relative_position_id = ISH_new_soviet_man
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ISH_speak_to_the_army"
+		}
+	}
+
+	focus = {
+		id = ISH_sverdlovsk_speech
+		icon = GFX_generic_change_law_speech
+		cost = 2
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		prerequisite = {
+			focus = ISH_speak_to_the_army
+		} 
+		x = 0
+		y = 1
+		relative_position_id = ISH_speak_to_the_army
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ISH_sverdlovsk_speech"
+		}
+	}
+
+	focus = {
+		id = ISH_strengthen_the_party
+		icon = GFX_NIK_secure_the_party
+		cost = 2
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		prerequisite = {
+			focus = ISH_strengthen_the_nkvd
+		} 
+		x = 2
+		y = 1
+		relative_position_id = ISH_strengthen_the_nkvd
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ISH_strengthen_the_party"
+		}
+	}
+
+	focus = {
+		id = ISH_cement_the_personality_cult
+		icon = GFX_TOB_Tyranny_of_Kaganovich
+		cost = 2
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		prerequisite = {
+			focus = ISH_strengthen_the_party
+		} 
+		x = 0
+		y = 1
+		relative_position_id = ISH_strengthen_the_party
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ISH_cement_the_personality_cult"
+		}
+	}
+
+	focus = {
+		id = ISH_appoint_loyal_bureaucrats
+		icon = GFX_NIK_bureau_of_ideological_analysis
+		cost = 2
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		prerequisite = {
+			focus = ISH_cement_the_personality_cult
+		} 
+		x = 0
+		y = 1
+		relative_position_id = ISH_cement_the_personality_cult
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ISH_appoint_loyal_bureaucrats"
+		}
+	}
+
+	# A Stalinist Society
+
+	focus = {
+		id = ISH_a_stalinist_society
+		icon = GFX_ISH_reflect_upon_stalins_word
+		cost = 2
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		prerequisite = {
+			focus = ISH_meet_with_khrushchev
+		}
+		prerequisite = {
+			focus = ISH_sverdlovsk_speech
+		} 
+		prerequisite = {
+			focus = ISH_appoint_loyal_bureaucrats
+		} 	
+		x = 0
+		y = 1
+		relative_position_id = ISH_meet_with_khrushchev
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ISH_a_stalinist_society"
+		}
+	}
+
+	# Other Half
+
+	focus = {
+		id = ISH_concessions_to_khrushchev
+		icon = GFX_ISH_great_popular_triumph
+		cost = 2
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		prerequisite = {
+			focus = ISH_convene_the_party
+		} 
+		x = -5
+		y = 1
+		relative_position_id = ISH_convene_the_party
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ISH_concessions_to_khrushchev"
+		}
+	}
+
+	focus = {
+		id = ISH_begin_the_releases
+		icon = GFX_TNO_generic_liberating_camps_prisoners
+		cost = 2
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		prerequisite = {
+			focus = ISH_concessions_to_khrushchev
+		} 
+		x = 0
+		y = 1
+		relative_position_id = ISH_concessions_to_khrushchev
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ISH_begin_the_releases"
+		}
+	}
+
+	focus = {
+		id = ISH_agricultural_concessions
+		icon = GFX_generic_farm_mechanization
+		cost = 2
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		prerequisite = {
+			focus = ISH_begin_the_releases
+		} 
+		x = -1
+		y = 1
+		relative_position_id = ISH_begin_the_releases
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ISH_agricultral_concessions"
+		}
+	}
+
+	focus = {
+		id = ISH_cultural_revolution
+		icon = GFX_ISH_new_soviet_family
+		cost = 2
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		prerequisite = {
+			focus = ISH_begin_the_releases
+		} 
+		x = -3
+		y = 1
+		relative_position_id = ISH_begin_the_releases
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ISH_cultural_revolution"
+		}
+	}
+
+	focus = {
+		id = ISH_nod_towards_bukharin
+		icon = GFX_SAH_bukharins_legacy
+		cost = 2
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		prerequisite = {
+			focus = ISH_agricultural_concessions
+		}
+		prerequisite = {
+			focus = ISH_cultural_revolution
+		}
+		x = 1
+		y = 1
+		relative_position_id = ISH_cultural_revolution
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ISH_nod_towards_bukharin"
+		}
+	}
+
+	focus = {
+		id = ISH_handshake_with_kaganovich
+		icon = GFX_CNT_meet_the_new_boss
+		cost = 2
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		prerequisite = {
+			focus = ISH_nod_towards_bukharin
+		}
+		x = 0
+		y = 1
+		relative_position_id = ISH_nod_towards_bukharin
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ISH_handshake_with_kaganovich"
+		}
+	}
+
+	# Party Membership
+
+	focus = {
+		id = ISH_expand_party_membership
+		icon = GFX_ITA_XXV_Congress_of_the_Italian_Socialist_Party
+		cost = 2
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		prerequisite = {
+			focus = ISH_begin_the_releases
+		} 
+		x = 2
+		y = 1
+		relative_position_id = ISH_begin_the_releases
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ISH_expand_party_membership"
+		}
+	}
+
+	focus = {
+		id = ISH_meet_the_workers
+		icon = GFX_RAJ_India_Worker_Rights
+		cost = 2
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		prerequisite = {
+			focus = ISH_expand_party_membership
+		}
+		x = 0
+		y = 1
+		relative_position_id = ISH_expand_party_membership
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ISH_meet_the_workers"
+		}
+	}
+
+	focus = {
+		id = ISH_meet_the_soldiers
+		icon = GFX_NIK_army_for_the_motherland_ultravisionary
+		cost = 2
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		prerequisite = {
+			focus = ISH_meet_the_workers
+		}
+		x = 0
+		y = 1
+		relative_position_id = ISH_meet_the_workers
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ISH_meet_the_soldiers"
+		}
+	}
+
+	focus = {
+		id = ISH_bring_in_the_khruschevites
+		icon = GFX_ISH_consistent_democratism
+		cost = 2
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		prerequisite = {
+			focus = ISH_handshake_with_kaganovich
+		}
+		prerequisite = {
+			focus = ISH_meet_the_soldiers
+		}
+		x = -2
+		y = 1
+		relative_position_id = ISH_meet_the_soldiers
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ISH_bring_in_the_khruschevites"
+		}
+	}
 }
