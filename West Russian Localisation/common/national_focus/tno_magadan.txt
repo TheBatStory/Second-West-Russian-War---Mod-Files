@@ -130,6 +130,19 @@ focus_tree = {
 }
 
 focus_tree = {
+	id = MAG_postunification_werbell_democracy_2wrw
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = MAG
+		}
+	}
+	default = no
+	shared_focus = MAG_WA_a_true_united_states
+}
+
+focus_tree = {
 	id = MAG_postunification_werbell_despot
 	country = {
 		factor = 0

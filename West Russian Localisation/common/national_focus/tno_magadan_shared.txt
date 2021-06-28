@@ -7039,6 +7039,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = MAG_WA_the_real_work_begins 
 	completion_reward = { 
+		load_focus_tree = MAG_postunification_werbell_democracy
 	}
 }
 
@@ -7047,6 +7048,9 @@ shared_focus = {
 	icon = GFX_MAG_from_a_rabble_to_an_army
 	cost = 3 
 	available_if_capitulated = no
+	available = {
+		has_country_flag = MAG_WA_despot
+	}
 	ai_will_do = { factor = 1 } 
 	prerequisite = { 
 		focus = MAG_WA_the_real_work_begins
@@ -7178,7 +7182,10 @@ shared_focus = {
 	relative_position_id = MAG_WA_teach_the_russians_english
 	completion_reward = {
 		country_event = { id = wa_postunificationdem.6 }
-		add_to_variable = { GDP = 1000 }
+		add_to_variable = {
+            money_reserves = 500
+        }
+		add_to_variable = { GDP_growth = 0.015 }
 	}
 } 
 
@@ -7402,6 +7409,7 @@ shared_focus = {
 	relative_position_id = MAG_WA_stepping_down
 	completion_reward = {
 		country_event = { id = wa_postunificationdem.17 }
+		TNO_improve_poverty_low = yes
 	}
 } 
 
@@ -7419,6 +7427,18 @@ shared_focus = {
 	relative_position_id = MAG_WA_for_the_people
 	completion_reward = {
 		country_event = { id = wa_postunificationdem.18 }
+		add_ideas = tno_safety_limited_regulations
+		add_ideas = tno_pollution_few_regulations
+		add_ideas = tno_education_public_education
+		add_ideas = tno_gender_rights_women_in_the_workplace
+		add_ideas = tno_minorities_equal_rights
+		add_ideas = tno_income_taxation_low_income_weighted
+		add_ideas = tno_pensions_trinket_pensions
+		add_ideas = tno_draft_exemptions_civil_service_deferment
+		add_ideas = tno_political_parties_multiparty_system
+		add_ideas = tno_religious_rights_secularism
+		add_ideas = tno_press_rights_free_press
+		add_ideas = tno_vote_franchise_universal
 	}
 } 
 
@@ -7439,6 +7459,7 @@ shared_focus = {
 	relative_position_id = MAG_WA_stepping_down
 	completion_reward = {
 		country_event = { id = wa_postunificationdem.19 }
+		TNO_improve_poverty_med = yes 
 	}
 } 
 
@@ -7456,6 +7477,15 @@ shared_focus = {
 	relative_position_id = MAG_WA_by_the_people
 	completion_reward = {
 		country_event = { id = wa_postunificationdem.20 }
+		add_ideas = tno_vote_franchise_registered_voting
+		add_ideas = tno_draft_exemptions_religious_deferment
+		add_ideas = tno_income_taxation_low_income_weighted
+		add_ideas = tno_max_workhours_12_hour_work_day
+		add_ideas = tno_pensions_low_pensions
+		add_ideas = tno_unemployment_trinket_subsidies
+		add_ideas = tno_safety_limited_regulations
+		add_ideas = tno_pollution_few_regulations
+		add_ideas = tno_education_public_education
 	}
 } 
 
@@ -7474,6 +7504,7 @@ shared_focus = {
 	relative_position_id = MAG_WA_a_russian_constitution
 	completion_reward = {
 		country_event = { id = wa_postunificationdem.21 }
+		add_political_power = 100
 	}
 } 
 
@@ -7523,6 +7554,8 @@ shared_focus = {
 	relative_position_id = MAG_WA_a_true_united_states
 	completion_reward = {
 		country_event = { id = wa_postunificationdem.24 }
+		TNO_improve_industrial_equipment_med = yes
+		TNO_improve_industrial_expertise_med = yes
 	}
 }
 
@@ -7546,6 +7579,8 @@ shared_focus = {
 	relative_position_id = MAG_WA_an_industry_to_rival_the_reich
 	completion_reward = {
 		country_event = { id = wa_postunificationdem.25 }
+		TNO_worsen_poverty_low = yes 
+		add_ideas = tno_trade_laws_free_trade 
 	}
 } 
 
@@ -7561,6 +7596,7 @@ shared_focus = {
 	relative_position_id = MAG_WA_a_wide_open_door
 	completion_reward = {
 		country_event = { id = wa_postunificationdem.26 }
+		add_to_variable = { GDP_growth = 0.015 }
 	}
 }
 
@@ -7576,6 +7612,10 @@ shared_focus = {
 	relative_position_id = MAG_WA_a_meeting_with_the_president
 	completion_reward = {
 		country_event = { id = wa_postunificationdem.27 }
+		add_offsite_building = { type = industrial_complex level = 10 } 
+		add_to_variable = {
+            money_reserves = -500
+        }
 	}
 }
 
@@ -7591,13 +7631,46 @@ shared_focus = {
 	relative_position_id = MAG_WA_purchase_some_american_factories
 	completion_reward = {
 		country_event = { id = wa_postunificationdem.28 }
+		add_ideas = tno_economic_focus_war_economy
+		random_state = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = arms_factory
+                    level = 2
+                    instant_build = yes
+                }
+            }
+		random_state = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = arms_factory
+                    level = 2
+                    instant_build = yes
+                }
+            }
+		random_state = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = arms_factory
+                    level = 2
+                    instant_build = yes
+                }
+            }	
+			random_state = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = arms_factory
+                    level = 2
+                    instant_build = yes
+                }
+            }
 	}
 }
 
 shared_focus = {
 	id = MAG_WA_prepare_for_the_inevitable
 	icon = GFX_UPO_Prepare_the_Evacuations
-	cost = 3
+	cost = 10
 	prerequisite = {
 		focus = MAG_WA_military_industrial_complex
 	}
@@ -7606,6 +7679,7 @@ shared_focus = {
 	relative_position_id = MAG_WA_military_industrial_complex
 	completion_reward = {
 		country_event = { id = wa_postunificationdem.29 }
+		#add defences across the RK Mosk border
 	}
 }
 
@@ -7621,6 +7695,10 @@ shared_focus = {
 	relative_position_id = MAG_WA_prepare_for_the_inevitable
 	completion_reward = {
 		country_event = { id = wa_postunificationdem.30 }
+		TNO_worsen_poverty_low = yes
+		TNO_improve_agriculture_med = yes
+		TNO_improve_industrial_expertise_high = yes 
+		TNO_improve_industrial_equipment_high = yes 
 	}
 }
 
@@ -7644,6 +7722,10 @@ shared_focus = {
 	relative_position_id = MAG_WA_an_industry_to_rival_the_reich
 	completion_reward = {
 		country_event = { id = wa_postunificationdem.31 }
+		TNO_improve_industrial_equipment_med = yes
+		TNO_improve_agriculture_med = yes
+		TNO_improve_poverty_low = yes 
+		add_to_variable = { GDP_growth = 0.05 }
 	}
 } 
 
@@ -7659,6 +7741,7 @@ shared_focus = {
 	relative_position_id = MAG_WA_the_wealth_of_russia
 	completion_reward = {
 		country_event = { id = wa_postunificationdem.32 }
+		TNO_improve_industrial_expertise_high = yes 
 	}
 }
 
@@ -7674,6 +7757,46 @@ shared_focus = {
 	relative_position_id = MAG_WA_on_our_own_two_feet
 	completion_reward = {
 		country_event = { id = wa_postunificationdem.33 }
+		random_state = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 2
+                    instant_build = yes
+                }
+            }
+		random_state = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 2
+                    instant_build = yes
+                }
+            }	
+		random_state = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 2
+                    instant_build = yes
+                }
+            }	
+		random_state = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 2
+                    instant_build = yes
+                }
+            }	
+		random_state = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 2
+                    instant_build = yes
+                }
+            }				
 	}
 }
 
@@ -7695,7 +7818,7 @@ shared_focus = {
 shared_focus = {
 	id = MAG_WA_trans_russian_railway_network
 	icon = GFX_JAP_New_Broad_Gauge_Railways
-	cost = 3
+	cost = 10
 	prerequisite = {
 		focus = MAG_WA_russian_steel
 	}
@@ -7704,6 +7827,117 @@ shared_focus = {
 	relative_position_id = MAG_WA_russian_steel
 	completion_reward = {
 		country_event = { id = wa_postunificationdem.35 }
+		563 = { 
+                add_building_construction = {
+                    type = infrastructure
+                    level = 10
+                }
+            }
+		1364 = { 
+                add_building_construction = {
+                    type = infrastructure
+                    level = 10
+                }
+            }
+		564 = { 
+                add_building_construction = {
+                    type = infrastructure
+                    level = 10
+                }
+            }
+		566 = {       
+                add_building_construction = {
+                    type = infrastructure
+                    level = 10
+                }
+            }
+		329 = { 
+                add_building_construction = {
+                    type = infrastructure
+                    level = 10
+                }
+            }
+		654 = { 
+                add_building_construction = {
+                    type = infrastructure
+                    level = 10
+                }
+            }
+		40 = { 
+                add_building_construction = {
+                    type = infrastructure
+                    level = 10
+                }
+            }
+		570 = { 
+                add_building_construction = {
+                    type = infrastructure
+                    level = 10
+                }
+            }
+		571 = { 
+                add_building_construction = {
+                    type = infrastructure
+                    level = 10
+                }
+            }
+		572 = { 
+                add_building_construction = {
+                    type = infrastructure
+                    level = 10
+                }
+            }
+		754 = { 
+                add_building_construction = {
+                    type = infrastructure
+                    level = 10
+                }
+            }
+		848 = { 
+                add_building_construction = {
+                    type = infrastructure
+                    level = 10
+                }
+            }
+		853 = { 
+                add_building_construction = {
+                    type = infrastructure
+                    level = 10
+                }
+            }
+		849 = { 
+                add_building_construction = {
+                    type = infrastructure
+                    level = 10
+                }
+            }
+		852 = { 
+                add_building_construction = {
+                    type = infrastructure
+                    level = 10
+                }
+            }
+		851 = { 
+                add_building_construction = {
+                    type = infrastructure
+                    level = 10
+                }
+            }
+		850 = { 
+                add_building_construction = {
+                    type = infrastructure
+                    level = 10
+                }
+            }
+		250 = { 
+                add_building_construction = {
+                    type = infrastructure
+                    level = 10
+                }
+            }
+		add_to_variable = {
+            money_reserves = -500 
+		} 
 	}
 }
 
@@ -7719,6 +7953,11 @@ shared_focus = {
 	relative_position_id = MAG_WA_trans_russian_railway_network
 	completion_reward = {
 		country_event = { id = wa_postunificationdem.36 }
+		TNO_improve_poverty_med = yes
+		TNO_improve_agriculture_med = yes
+		TNO_improve_industrial_expertise_high = yes 
+		TNO_improve_industrial_equipment_high = yes
+		add_to_variable = { GDP_growth = 0.05 }
 	}
 }
 
@@ -7729,12 +7968,16 @@ shared_focus = {
 	prerequisite = {
 		focus = MAG_WA_operation_patriots
 		focus = MAG_WA_operation_snake_eater
+	} 
+	prerequisite = { 
 		focus = MAG_WA_first_things_first
+	} 
+	prerequisite = { 
 		focus = MAG_WA_a_glorious_american_economy
 		focus = MAG_WA_a_glorious_russian_economy
 	}
 	x = 0
-	y = 1
+	y = 2
 	relative_position_id = MAG_WA_first_things_first
 	completion_reward = {
 		country_event = { id = wa_postunificationdem.37 }

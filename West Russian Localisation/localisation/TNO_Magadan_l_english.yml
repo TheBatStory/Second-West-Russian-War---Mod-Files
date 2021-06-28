@@ -130,6 +130,7 @@
  MAG_Serge_Obolensky_eco:0 "Serge Obolensky"
  MAG_Boris_Pash_sec:0 "Boris Pash"
  MAG_Chiyoki_Ikeda_sec:0 "Chiyoki Ikeda"
+ MAG_WerBell_hog:0 "Mitchell WerBell III"
  # Mercenaries
  MAG_Roger_Faulques_hog:0 "Roger Faulques"
  MAG_Gerry_Moggach_sec:0 "Gerry Moggach"
@@ -2126,7 +2127,7 @@
  MAG_WA_a_glorious_american_economy_desc:0 "We have finished updating all of Russia to our American standard. \n\nOur people wear American jeans and listen to American rock music"
  
  MAG_WA_the_wealth_of_russia:0 "The Wealth Of Russia"
- MAG_WA_the_wealth_of_russia_desc:0 "The Wealth of Russia belongs to Russia and her people, not some American company trying to make a quick buck. \n\nLets get the rest of Russia up to standard with our industralisation plans.'
+ MAG_WA_the_wealth_of_russia_desc:0 "The Wealth of Russia belongs to Russia and her people, not some American company trying to make a quick buck. \n\nLets get the rest of Russia up to standard with our industralisation plans."
  
  MAG_WA_on_our_own_two_feet:0 "On Our Own Two Feet" 
  MAG_WA_on_our_own_two_feet_desc:0 "We must make sure we are fully economic independent, new factories, more resource extraction, we will create an economy larger any country that has came before!"
@@ -2138,7 +2139,7 @@
  MAG_WA_russian_steel_desc:0 "§gRussian Steel!§! \n\n§GRussian Soil!§! \n\n§RRussian Blood!§!"
  
  MAG_WA_trans_russian_railway_network:0 "A Trans-Russian Railway Network" 
- MAG_WA_trans_russian_railway_network_desc:0 "Let us build on the ruins of the old Trans-Siberian Railway Network and build an even more expansive sysstem. \n\n We will have the biggest, grandest, most glorious railway to ever exist!"
+ MAG_WA_trans_russian_railway_network_desc:0 "Let us build on the ruins of the old Trans-Siberian Railway Network and build an even more expansive system. \n\n We will have the biggest, grandest, most glorious railway to ever exist!"
  
  MAG_WA_a_glorious_russian_economy:0 "A Glorious §RRussian§! Economy"
  MAG_WA_a_glorious_russian_economy_desc:0 "We have finished updating all of Russia to our standard. \n\n§YWe Truely Have An Economy To Rival The World§!"
