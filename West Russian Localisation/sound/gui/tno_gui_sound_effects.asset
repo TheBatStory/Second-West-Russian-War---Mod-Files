@@ -579,59 +579,59 @@ soundeffect = {
 soundeffect = {
 	name = "tno_se_the_great_trial"
 	sounds = { sound = tno_se_the_great_trial }
-	volume = 1.1
+	volume = 1.25
 }
 
 soundeffect = {
 	name = "tno_se_novosibirsk_second_west_russian_war"
 	sounds = { sound = tno_se_novosibirsk_second_west_russian_war }
-	volume = 1.1
+	volume = 1.25
 }
 
 soundeffect = {
 	name = "tno_se_novosibirsk_victory"
 	sounds = { sound = tno_se_novosibirsk_victory }
-	volume = 1.1
+	volume = 1.25
 }
 
 soundeffect = {
 	name = "tno_se_twilight_of_the_gods"
 	sounds = { sound = tno_se_twilight_of_the_gods }
-	volume = 1.1
+	volume = 1.25
 }
 
 soundeffect = {
 	name = "tno_se_wrrf_war_declaration"
 	sounds = { sound = tno_se_wrrf_war_declaration }
-	volume = 1.1
+	volume = 1.25
 }
 
 soundeffect = {
 	name = "tno_se_sba_war_declaration"
 	sounds = { sound = tno_se_sba_war_declaration }
-	volume = 1.1
+	volume = 1.25
 }
 
 soundeffect = {
 	name = "tno_se_serov_war_declaration"
 	sounds = { sound = tno_se_serov_war_declaration }
-	volume = 1.1
+	volume = 1.25
 }
 
 soundeffect = {
 	name = "tno_se_kaganovich_war_declaration"
 	sounds = { sound = tno_se_kaganovich_war_declaration }
-	volume = 1.1
+	volume = 1.25
 }
 
 soundeffect = {
 	name = "tno_se_werbell_war_declaration"
 	sounds = { sound = tno_se_werbell_war_declaration }
-	volume = 1.1
+	volume = 1.25
 }
 
 soundeffect = {
 	name = "tno_se_wrrf_victory"
 	sounds = { sound = tno_se_wrrf_victory }
-	volume = 1.1
+	volume = 1.25
 }

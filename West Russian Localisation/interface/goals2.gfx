@@ -25694,4 +25694,14 @@ spriteTypes = {
 		name = "GFX_PAV_Shukshin_Speech"
 		texturefile = "gfx/interface/goals/GFX_PAV_Shukshin_Speech.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_PAV_for_the_liberation_of_all_russians"
+		texturefile = "gfx/interface/goals/PAV_for_the_liberation_of_all_russians.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PAV_remember_whats_at_stake"
+		texturefile = "gfx/interface/goals/PAV_remember_whats_at_stake.dds"
+	}
 }
