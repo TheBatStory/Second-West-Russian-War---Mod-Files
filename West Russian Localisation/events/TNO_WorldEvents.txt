@@ -22953,7 +22953,7 @@ news_event = { #Declaration of War - Shukshin
 	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.40005"}
 	title = WORLD.40005.t
 	desc = WORLD.40005.desc
-	picture = GFX_news_event_russia_novosibirsk_unification
+	picture = GFX_news_event_russia_novosibirsk_invasion
 	
 	is_triggered_only = yes
 
@@ -22990,7 +22990,7 @@ news_event = { #Declaration of War - Pokryshkin
 	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.40007"}
 	title = WORLD.40007.t
 	desc = WORLD.40007.desc
-	picture = GFX_news_event_russia_novosibirsk_unification
+	picture = GFX_news_event_russia_novosibirsk_invasion
 	
 	is_triggered_only = yes
 
@@ -23103,7 +23103,7 @@ news_event = { #Declaration of War - WerBell
 	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.40009"}
 	title = WORLD.40009.t
 	desc = WORLD.40009.desc
-	picture = GFX_news_event_russia_novosibirsk_unification
+	picture = GFX_news_event_russia_omsk_national
 	
 	is_triggered_only = yes
 

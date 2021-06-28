@@ -3826,7 +3826,45 @@ shared_focus = {
 	y = 0
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus PAV_our_eyes_on_moskowien"
-		add_war_support = 0.20
+		custom_effect_tooltip = PAV_our_eyes_on_moskowien_tt
+		hidden_effect = {
+			219 = { add_claim_by = RUS }
+			253 = { add_claim_by = RUS }
+			1314 = { add_claim_by = RUS }
+			254 = { add_claim_by = RUS }
+			248 = { add_claim_by = RUS }
+			247 = { add_claim_by = RUS }
+			264 = { add_claim_by = RUS }
+			195 = { add_claim_by = RUS }
+			244 = { add_claim_by = RUS }
+			208 = { add_claim_by = RUS }
+			209 = { add_claim_by = RUS }
+			263 = { add_claim_by = RUS }
+			210 = { add_claim_by = RUS }
+			246 = { add_claim_by = RUS }
+			242 = { add_claim_by = RUS }
+			243 = { add_claim_by = RUS }
+			241 = { add_claim_by = RUS }
+			224 = { add_claim_by = RUS }
+			205 = { add_claim_by = RUS }
+			223 = { add_claim_by = RUS }
+			222 = { add_claim_by = RUS }
+			254 = { add_claim_by = RUS }
+			258 = { add_claim_by = RUS }
+			257 = { add_claim_by = RUS }
+			255 = { add_claim_by = RUS }
+			220 = { add_claim_by = RUS }
+			240 = { add_claim_by = RUS }
+			260 = { add_claim_by = RUS }
+			239 = { add_claim_by = RUS }
+			401 = { add_claim_by = RUS }
+			265 = { add_claim_by = RUS }
+			245 = { add_claim_by = RUS }
+			217 = { add_claim_by = RUS }
+			238 = { add_claim_by = RUS }
+			237 = { add_claim_by = RUS }
+			236 = { add_claim_by = RUS }
+		}
 	}
 }
 
@@ -4635,6 +4673,10 @@ shared_focus = {
 			target = OST
 			type = annex_everything
 		}
+		declare_war_on = {
+			target = CAU
+			type = annex_everything
+		}
 	}
 }
 
@@ -4690,8 +4732,8 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = PAV_ask_for_swedish_support
-	icon = GFX_generic_swedish_diplomacy
+	id = PAV_plead_to_europe
+	icon = GFX_GER_SGR_comrades_from_europe
 	cost = 2
 	available_if_capitulated = no
 	ai_will_do = { factor = 1 }
@@ -4702,7 +4744,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = PAV_to_liberate_russia
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus PAV_ask_for_european_support"
+		log = "[GetDateText]: [Root.GetName]: Focus PAV_plead_to_europe"
 	}
 }
 
@@ -4734,7 +4776,7 @@ shared_focus = {
 		focus = PAV_brave_sons_of_russia
 	}
 	prerequisite = {
-		focus = PAV_ask_for_swedish_support
+		focus = PAV_plead_to_europe
 	}
 	prerequisite = {
 		focus = PAV_spread_war_propaganda
@@ -4761,6 +4803,83 @@ shared_focus = {
 	relative_position_id = PAV_onwards_to_moscow
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus PAV_recruit_the_slaves"
+		add_manpower = 100000
+	}
+}
+
+shared_focus = {
+	id = PAV_buy_japanese_arms
+	icon = GFX_TNO_generic_japan
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PAV_onwards_to_moscow
+	}
+	x = 2
+	y = 1
+	relative_position_id = PAV_onwards_to_moscow
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PAV_buy_japanese_arms"
+		add_manpower = 100000
+	}
+}
+
+shared_focus = {
+	id = PAV_remember_whats_at_stake
+	icon = GFX_PAV_remember_whats_at_stake
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PAV_onwards_to_moscow
+	}
+	x = -2
+	y = 1
+	relative_position_id = PAV_onwards_to_moscow
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PAV_remember_whats_at_stake"
+		add_manpower = 100000
+	}
+}
+
+shared_focus = {
+	id = PAV_deal_with_america
+	icon = GFX_BRA_gain_us_support
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PAV_recruit_the_slaves
+	}
+	prerequisite = {
+		focus = PAV_buy_japanese_arms
+	}
+	prerequisite = {
+		focus = PAV_remember_whats_at_stake
+	}
+	x = 0
+	y = 1
+	relative_position_id = PAV_recruit_the_slaves
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PAV_deal_with_america"
+	}
+}
+
+shared_focus = {
+	id = PAV_for_the_liberation_of_all_russians
+	icon = GFX_PAV_for_the_liberation_of_all_russians
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PAV_deal_with_america
+	}
+	x = 0
+	y = 1
+	relative_position_id = PAV_deal_with_america
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PAV_for_the_liberation_of_all_russians"
 		add_manpower = 100000
 	}
 }
