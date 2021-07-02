@@ -1,0 +1,33 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_tension_bar_frame"
+		texturefile = "gfx/interface/war_overview_gui/tension_bar_frame.dds"
+	}
+	progressbartype = {
+		name = "GFX_WRW_Tension_bar"
+		texturefile1 = "gfx/interface/war_overview_gui/tension_bar_full.dds"
+		texturefile2 = "gfx/interface/war_overview_gui/tension_bar_empty.dds"
+		size = {
+			x = 406
+			y = 53
+		}
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}
+	
+	spriteType = {
+		name = "GFX_exhaustion_bar_frame"
+		texturefile = "gfx/interface/war_overview_gui/exhaustion_bar_frame.dds"
+	}
+	progressbartype = {
+		name = "GFX_WRW_Exhaustion_bar"
+		texturefile1 = "gfx/interface/war_overview_gui/exhaustion_bar_full.dds"
+		texturefile2 = "gfx/interface/war_overview_gui/exhaustion_bar_empty.dds"
+		size = {
+			x = 57
+			y = 202
+		}
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = no
+	}
+}

@@ -1,0 +1,104 @@
+guiTypes = {
+	containerWindowType = {
+		name = "war_overview"
+		size = { width = 500 height = 500 }
+		position = { x = 0 y = 0 }
+		
+		instantTextboxType= {
+			name = "tension_title"
+			position = { x = 10 y = 40 }
+			font = "aldrich_36_outline"
+			text = tension_title_loc
+			maxWidth = 500
+			maxHeight = 100
+			format = center
+		}
+		
+		iconType = {
+			name = "tension_bar_frame"
+			spriteType = "GFX_tension_bar_frame"
+			position = { x = 45 y = 77 }
+		}
+		
+		iconType = {
+			name = "tension_main_bar"
+			spriteType = "GFX_WRW_Tension_bar"
+			position = { x = 49 y = 81 }
+		}
+		
+		instantTextboxType= {
+			name = "exhaustion_title"
+			position = { x = 0 y = 229 }
+			font = "aldrich_24_outline"
+			text = "WAR EXHAUSTION"
+			maxWidth = 500
+			maxHeight = 100
+			format = center
+		}
+		
+		iconType = {
+			name = "exhaustion_bar_frame_germany"
+			spriteType = "GFX_exhaustion_bar_frame"
+			position = { x = 160 y = 260 }
+		}
+		
+		iconType = {
+			name = "exhaustion_main_bar_germany"
+			spriteType = "GFX_WRW_Exhaustion_bar"
+			position = { x = 166 y = 266 }
+		}
+		
+		iconType = {
+			name = "exhaustion_bar_frame_russia"
+			spriteType = "GFX_exhaustion_bar_frame"
+			position = { x = 268 y = 260 }
+		}
+		
+		iconType = {
+			name = "exhaustion_main_bar_russia"
+			spriteType = "GFX_WRW_Exhaustion_bar"
+			position = { x = 274 y = 266 }
+		}
+		
+		instantTextboxType= {
+			name = "germany_name"
+			position = { x = 10 y = 229 }
+			font = "aldrich_24_outline"
+			text = german_title_loc
+			maxWidth = 150
+			maxHeight = 100
+			format = center
+		}
+		
+		instantTextboxType= {
+			name = "german_exhaustion"
+			position = { x = 10 y = 320 }
+			font = "aldrich_36_outline"
+			text = "[?german_exhaustion_var]%"
+			maxWidth = 150
+			maxHeight = 100
+			format = center
+		}
+		
+		instantTextboxType= {
+			name = "russia_title"
+			position = { x = 340 y = 229 }
+			font = "aldrich_24_outline"
+			text = russian_title_loc
+			maxWidth = 150
+			maxHeight = 100
+			format = center
+		}
+		
+		instantTextboxType= {
+			name = "russian_exhaustion"
+			position = { x = 340 y = 320 }
+			font = "aldrich_36_outline"
+			text = "[?russian_exhaustion_var]%"
+			maxWidth = 150
+			maxHeight = 100
+			format = center
+		}
+
+	}
+}

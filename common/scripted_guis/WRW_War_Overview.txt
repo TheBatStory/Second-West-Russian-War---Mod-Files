@@ -1,0 +1,28 @@
+scripted_gui = {
+	war_overview = {
+		context_type = decision_category
+		parent_window_token = decisions_category
+		window_name = "war_overview"
+		
+		visible = {
+			always = yes
+		}
+
+		properties = {
+			tension_main_bar = {
+				frame = 2WRW_tension
+			}
+			exhaustion_main_bar_germany = {
+				frame = german_exhaustion_var
+			}
+			exhaustion_main_bar_russia = {
+				frame = russian_exhaustion_var
+			}
+		}
+		
+		effects = {
+			
+		}
+	}
+}
+

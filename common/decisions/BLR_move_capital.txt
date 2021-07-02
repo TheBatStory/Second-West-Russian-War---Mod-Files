@@ -1,0 +1,27 @@
+BLR_move_capital_category = {
+
+	BLR_return_to_minsk = {
+		allowed = {
+			original_tag = BLR
+		}
+			
+		visible = {
+			has_war = no
+		}
+		
+		available = {
+			96 = { is_controlled_by = BLR }
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		fire_only_once = yes
+		
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: The Belarus Returns to Minsk"
+			set_capital = 96
+		}		
+	}
+}
