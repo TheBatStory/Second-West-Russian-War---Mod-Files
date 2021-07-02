@@ -1643,6 +1643,19 @@ KHA_debug_category = {
 			load_focus_tree = KHA_superregional_despotist
 		}
 	}
+	KHA_load_KHA_national_libsoc = { 
+        complete_effect = { 
+            load_focus_tree = KHA_national_libsoc
+        }
+    }
+	KHA_economylaw = {
+		complete_effect = {
+			swap_ideas = {
+				add_idea = tno_economic_focus_collectivized_society
+				remove_idea = tno_economic_focus_war_economy
+			}
+		}
+	}
 }
 
 TOB_debug_category = {
