@@ -7984,6 +7984,185 @@ shared_focus = {
 	}
 }
 
+### WerBell Democracy 2WRW Tree ###
+shared_focus = { 
+	id = MAG_WA_moscow_calling 
+	icon = 
+	cost = 3 
+	x = 6 
+	y = 0 
+	completion_reward = { 
+		country_event = { id = wa_2wrwdem.1 } 
+	}
+}
+
+shared_focus = { 
+	id = MAG_WA_a_misjustice_must_be_righted
+	icon = 
+	cost = 3
+	prerequisite = { 
+		focus = MAG_WA_moscow_calling
+	} 
+	x = 0 
+	y = 1
+	relative_position_id = MAG_WA_moscow_calling
+	completion_reward = {
+		country_event = { id = wa_2wrwdem.2 } 
+	}
+} 
+
+shared_focus = { 
+	id = MAG_WA_prepare_the_people
+	icon = 
+	cost = 3
+	prerequisite = { 
+		focus = MAG_WA_a_misjustice_must_be_righted
+	} 
+	x = -2.5 
+	y = 1
+	relative_position_id = MAG_WA_a_misjustice_must_be_righted
+	completion_reward = {
+	}
+} 
+
+shared_focus = { 
+	id = MAG_WA_at_what_cost
+	icon = 
+	cost = 3
+	prerequisite = { 
+		focus = MAG_WA_prepare_the_people
+	} 
+	x = 0 
+	y = 1
+	relative_position_id = MAG_WA_prepare_the_people
+	completion_reward = {
+		country_event = { id = wa_2wrwdem.3 } 
+	}
+} 
+
+shared_focus = { 
+	id = MAG_WA_these_united_states_of_russia
+	icon = 
+	cost = 3
+	prerequisite = { 
+		focus = MAG_WA_at_what_cost
+	} 
+	x = 0 
+	y = 1
+	relative_position_id = MAG_WA_at_what_cost
+	completion_reward = {
+		country_event = { id = wa_2wrwdem.4 } 
+	}
+} 
+
+shared_focus = { 
+	id = MAG_WA_prepare_the_west
+	icon = 
+	cost = 3
+	prerequisite = { 
+		focus = MAG_WA_a_misjustice_must_be_righted
+	} 
+	x = 0 
+	y = 1
+	relative_position_id = MAG_WA_a_misjustice_must_be_righted
+	completion_reward = {
+	}
+} 
+
+shared_focus = { 
+	id = MAG_WA_set_up_the_defences
+	icon = 
+	cost = 3
+	prerequisite = { 
+		focus = MAG_WA_prepare_the_west
+	} 
+	x = 0 
+	y = 1
+	relative_position_id = MAG_WA_prepare_the_west
+	completion_reward = {
+	}
+} 
+
+shared_focus = { 
+	id = MAG_WA_war_never_changes
+	icon = 
+	cost = 3
+	prerequisite = { 
+		focus = MAG_WA_set_up_the_defences
+	} 
+	x = 0 
+	y = 1
+	relative_position_id = MAG_WA_set_up_the_defences
+	completion_reward = {
+		country_event = { id = wa_2wrwdem.5 } 
+	}
+} 
+
+shared_focus = { 
+	id = MAG_WA_prepare_the_sabotage
+	icon = 
+	cost = 3
+	prerequisite = { 
+		focus = MAG_WA_a_misjustice_must_be_righted
+	} 
+	x = 2.5 
+	y = 1
+	relative_position_id = MAG_WA_a_misjustice_must_be_righted
+	completion_reward = {
+		country_event = { id = wa_2wrwdem.6 } 
+	}
+} 
+
+shared_focus = { 
+	id = MAG_WA_recruit_the_dreamers
+	icon = 
+	cost = 3
+	prerequisite = { 
+		focus = MAG_WA_prepare_the_sabotage
+	} 
+	x = 0 
+	y = 1
+	relative_position_id = MAG_WA_prepare_the_sabotage
+	completion_reward = {
+		country_event = { id = wa_2wrwdem.7 } 
+	}
+} 
+
+shared_focus = { 
+	id = MAG_WA_disrupt_supply_lines
+	icon = 
+	cost = 3
+	prerequisite = { 
+		focus = MAG_WA_recruit_the_dreamers
+	} 
+	x = 0 
+	y = 1
+	relative_position_id = MAG_WA_recruit_the_dreamers
+	completion_reward = {
+	}
+} 
+
+shared_focus = { 
+	id = MAG_WA_onwards_onto_moscow 
+	icon = 
+	cost = 3
+	prerequisite = { 
+		focus = MAG_WA_these_united_states_of_russia
+	} 
+prerequisite = { 
+		focus = MAG_WA_war_has_changed
+	} 
+prerequisite = { 
+		focus = MAG_WA_disrupt_supply_lines 
+	} 
+	x = 0 
+	y = 1
+	relative_position_id = MAG_WA_war_never_changes
+	completion_reward = {
+		country_event = { id = wa_2wrwdem.8 } 
+	}
+} 
+
 ### WerBell Despot Post Unification Tree ###
 
 shared_focus = {

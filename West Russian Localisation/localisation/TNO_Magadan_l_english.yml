@@ -2147,6 +2147,165 @@
  MAG_WA_the_final_call:0 "The Final Call"
  MAG_WA_the_final_call_desc:0 "\n\n§YCan You Hear The Call? \n\n \n\n§RTHIS IS OUR DESTINY!§!"
  
+ ### WerBell Democracy 2WRW Prep Tree ###
+ MAG_WA_moscow_calling:0 "Moscow Calling"
+ MAG_WA_moscow_calling_desc:0 "add" 
+ 
+ MAG_WA_a_misjustice_must_be_righted:0 "A Misjustice MUST Be Righted" 
+ MAG_WA_a_misjustice_must_be_righted_desc:0 "add" 
+ 
+ MAG_WA_prepare_the_people:0 "Prepare The People"
+ MAG_WA_prepare_the_people_desc:0 "add" 
+ 
+ MAG_WA_at_what_cost:0 "At What Cost?"
+ MAG_WA_at_what_cost_desc:0 "add"
+ 
+ MAG_WA_these_united_states_of_russia:0 "These United States Of Russia" 
+ MAG_WA_these_united_states_of_russia_desc:0 "add" 
+ 
+ MAG_WA_prepare_the_west:0 "Prepare The West" 
+ MAG_WA_prepare_the_west_desc:0 "add"
+ 
+ MAG_WA_set_up_the_defences:0 "Setup The Defences"
+ MAG_WA_set_up_the_defences_desc:0 "add" 
+ 
+ MAG_WA_war_never_changes:0 "War Never Changes" 
+ MAG_WA_war_never_changes_desc:0 "add" 
+ 
+ MAG_WA_prepare_the_sabotage:0 "Prepare The Sabotage" 
+ MAG_WA_prepare_the_sabotage_desc:0 "add"
+ 
+ MAG_WA_recruit_the_dreamers:0 "Recruit The Dreamers"
+ MAG_WA_recruit_the_dreamers_desc:0 "add"
+ 
+ MAG_WA_disrupt_supply_lines:0 "Disrupt German Supplines" 
+ MAG_WA_disrupt_supply_lines_desc:0 "add" 
+ 
+ MAG_WA_onwards_onto_moscow:0 "ONWARDS    Onto Moscow!" 
+ MAG_WA_onwards_onto_moscow_desc:0 "add" 
+ 
+ 
+ ### WerBell Despot Pre2WRW ###
+ MAG_WA_soldaty_bez_granits:0 "Soldaty Bez Granits"
+ MAG_WA_soldaty_bez_granits_desc:0 "add"
+ 
+ MAG_WA_we_call_for_wetwork:0 "§YWE§! Call For Wetwork"
+ MAG_WA_we_call_for_wetwork_desc:0 "add"
+ 
+ MAG_WA_and_they_answered:0 "And §YTHEY§! Answered" 
+ MAG_WA_and_they_answered_desc:0 "add"
+ 
+ MAG_WA_a_weapon_to_surpass_nukes:0 "A Weapon To Surpass The Nuke?" 
+ MAG_WA_a_weapon_to_surpass_nukes_desc:0 "add"
+ 
+ MAG_WA_if_you_fail_just_keep_trying:0 "If You Fail, Just Keep Trying!" 
+ MAG_WA_if_you_fail_just_keep_trying_desc:0 "add"
+ 
+ MAG_WA_third_times_the_charm:0 "Third Time's The Charm...?" 
+ MAG_WA_third_times_the_charm_desc:0 "add"
+ 
+ MAG_WA_flight_of_the_valkyries:0 "The Flight Of The Valkyries" 
+ MAG_WA_flight_of_the_valkyries_desc:0 "add"
+ 
+ MAG_WA_the_worlds_first_and_last_option:0 "The §BWorld's§! First And Last Option" 
+ MAG_WA_the_worlds_first_and_last_option_desc:0 "add"
+ 
+ MAG_WA_let_them_in:0 "Let Them In?"
+ MAG_WA_let_them_in_desc:0 "add"
+ 
+ MAG_WA_all_russian_merc_corp:0 "All Russian Merc Corp"
+ MAG_WA_all_russian_merc_corp_desc:0 "add"
+ 
+ MAG_WA_a_rising_star:0 "A Rising Star"
+ MAG_WA_a_rising_star_desc:0 "add"
+ 
+ MAG_WA_borrow_some_theory:0 "Borrow Some Theory"
+ MAG_WA_borrow_some_theory_desc:0 "add"
+ 
+ MAG_WA_a_russian_military:0 "A Russian Military?" 
+ MAG_WA_a_russian_military_desc:0 "add"
+ 
+ MAG_WA_russias_first_and_last_option:0 "§RRussia's§! First And Last Option"
+ MAG_WA_russias_first_and_last_option_desc:0 "add"
+ 
+ MAG_WA_a_betrayal_or_an_evolution:0 "A Betrayal? Or An Evolution?" 
+ MAG_WA_a_betrayal_or_an_evolution_desc:0 "add" 
+ 
+ MAG_WA_stepping_up:0 "Stepping Up"
+ MAG_WA_stepping_up_desc:0 "add"
+ 
+ MAG_WA_evolution:0 "Evolution"
+ MAG_WA_evolution_desc:0 "add"
+ 
+ MAG_WA_anarchism_no_this_is_just_self_determination:0 "Anarchism?, No, This Is Simply Self Determination"
+ MAG_WA_anarchism_no_this_is_just_self_determination_desc:0 "add"
+ 
+ MAG_WA_every_man_a_soldier_of_his_own_fortunes:0 "Every Man, A Solider Of His Own Fortunes" 
+ MAG_WA_every_man_a_soldier_of_his_own_fortunes_desc:0 "add"
+ 
+ MAG_WA_remove_the_regulations:0 "Remove The Regulations"
+ MAG_WA_remove_the_regulations_desc:0 "add"
+ 
+ MAG_WA_a_new_freer_future:0 "A New, Freer Future" 
+ MAG_WA_a_new_freer_future_desc:0 "add"
+ 
+ MAG_WA_stick_to_our_guns:0 "Sticking To Our Guns"
+ MAG_WA_stick_to_our_guns_desc:0 "add"
+ 
+ MAG_WA_some_token_reforms:0 "Some Token Reforms"
+ MAG_WA_some_token_reforms_desc:0 "add"
+ 
+ MAG_WA_not_so_fast:0 "Not So Fast"
+ MAG_WA_not_so_fast_desc:0 "add"
+ 
+ MAG_WA_the_russian_people:0 "The Russian People"
+ MAG_WA_the_russian_people_desc:0 "add"
+ 
+ MAG_WA_the_mercenaries:0 "The Mercenaries"
+ MAG_WA_the_mercenaries_desc:0 "add"
+ 
+ MAG_WA_their_land_our_wealth:0 "§RTheir§! Land, §YOur§! Wealth"
+ MAG_WA_their_land_our_wealth_desc:0 "add"
+ 
+ MAG_WA_exploit_their_riches:0 "Exploit Their Riches"
+ MAG_WA_exploit_their_riches_desc:0 "add"
+ 
+ MAG_WA_with_cia_help:0 "With §BCIA§! Help"
+ MAG_WA_with_cia_help_desc:0 "add"
+ 
+ MAG_WA_how_far_do_we_go:0 "How Far Do We Go?"
+ MAG_WA_how_far_do_we_go_desc:0 "add"
+ 
+ MAG_WA_a_swiss_bank_account:0 "A Swiss Bank Account"
+ MAG_WA_a_swiss_bank_account_desc:0 "add"
+ 
+ MAG_WA_convert_the_factories:0 "Convert The Factories"
+ MAG_WA_convert_the_factories_desc:0 "add"
+ 
+ MAG_WA_all_the_gold_for_werbell:0 "All The §YGold§! For WerBell" 
+ MAG_WA_all_the_gold_for_werbell_desc:0 "add"
+ 
+ MAG_WA_use_their_riches:0 "Use Their Riches"
+ MAG_WA_use_their_riches_desc:0 "add" 
+ 
+ MAG_WA_with_american_help:0 "With §BAmerican§! Help"
+ MAG_WA_with_american_help_desc:0 "add"
+ 
+ MAG_WA_how_far_can_we_go:0 "How Far Can We Go?"
+ MAG_WA_how_far_can_we_go_desc:0 "add"
+ 
+ MAG_WA_russian_finance:0 "Russian Finance"
+ MAG_WA_russian_finance_desc:0 "add"
+ 
+ MAG_WA_build_the_factories:0 "Build The Factories"
+ MAG_WA_build_the_factories_desc:0 "add"
+ 
+ MAG_WA_all_the_gold_for_the_state:0 "All The §YGold§! For The State"
+ MAG_WA_all_the_gold_for_the_state_desc:0 "add"
+ 
+ MAG_WA_operation_phantom_pain:0 "Operation: §RPhantom Pain§!"
+ MAG_WA_operation_phantom_pain_desc:0 "add"
+ 
  ### West Alaska events ###
  westalaska.1.t:0 "Magadan Free Radio - Broadcast 64"
  westalaska.1.desc:0 "Today's radio started without hiccups. The audio, which had been Russian patriotic sounds set to the tune of unmastered sound and constant crackling, was now playing a very soft piano - a classic. Chopin's Nocturne Op. 9, no. 2, the particular favorite of some of the mercenaries that worked in Harbin. It continued for several minutes until the last tone rang, and a voice, smooth, controlled, baritone, took over. "Good evening, people of Siberia," A hint of English accent underlaid its Russian, "This is the new Radio Free Magadan, recently liberated from the Fascists that had lived there for years. If you've just tuned in, this is your host, Stephen, also known as Roastbeef to my French compadres," a carefully controlled laughter, "What funny boys. If you're Russian, or in merc parlance, a local, you can call me Strelok. Simple but effective."\n\nA cough. "Oh, excuse me," the voice said, lowering itself away from the microphone, although the percussions were still audible, "I apologize for the interruption. Now, due to the generosity of our benefactor, Mr. WerBell Esq.," he moved to a whisper, "The esquire is important!" He resumed, "If you have any requests, you can send them to our offices in Magadan, right near beside the old RFP offices. For now," sounds of shuffling paper, "It's now time for Surfin' Safari, by The Beach Boys. This is Strelok, or Roastbeef, signing off."\n\nSmooth rock commenced."
@@ -2496,7 +2655,7 @@
  wa_postunificationdem.6.a:0 "Rolling in the Benjamins"
 
  wa_postunificationdem.7.t:0 "The Metal Gears Clunk Along"
- wa_postunificationdem.7.desc:0 "Add Description here"
+ wa_postunificationdem.7.desc:0 ""So, what do you think, Mitch?", Aleksandr asked. "Well it looks really fucking impressive so far! But I fail to see how the hell it would be able to move…" WerBell replied. "Ah, but this is where the magic comes in, my friend!" Aleksandr said, not even trying to hide the excitement on his face. "You see, these two legs here make it so that the metal gear can traverse more difficult terrain than an ordinary tank could. Not even the Germans' panzer could hold a candle to this bad boy! Not to mention the canon! Powerful enough to destroy mountains!" \n\n"Well that sounds fucking great, does it work though? This won't do us much good if it's just a metallic pile of shit" \n\n"Please, Mitchell, don't talk about my baby in that way. And of course it works! Now, when I climb in here, and start the engines.. There." The motor roared as the mechanical beast came to life. \n\n"Now, when I move this lever here, the legs shou-" A loud crash sounded forth as the leg of the vehicle came off, then, having lost its balance, the vehicle fell over, smashing the cockpit in the process. \n\nRescue personnel quickly arrived at the scene, first making sure WerBell, who had been a bystander, not wanting to risk going into the cockpit of the vehicle, was unharmed, and then trying to rescue Aleksandr. However, unsurprisingly, it was already too late for him."
  wa_postunificationdem.7.a:0 "A Miserable Failure"
  
  wa_postunificationdem.8.t:0 "A Mission to Remember"
