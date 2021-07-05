@@ -517,6 +517,18 @@ country_event = { #Lenin's body destroyed (news event)
 		name = RUSwonder.1991.a
 	}
 }
+country_event = { #Lenin's body sold (news event)
+	id = RUSwonder.1992
+	immediate = {log = "[GetDateText]: [Root.GetName]: event RUSwonder.1992"}
+	title = RUSwonder.1992.t
+	desc = RUSwonder.1992.desc
+	picture = GFX_report_event_lenins_body
+	is_triggered_only = yes
+
+	option = { #
+		name = RUSwonder.1992.a
+	}
+}
 
 ###########################################################################
 

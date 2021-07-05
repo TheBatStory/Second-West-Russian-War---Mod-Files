@@ -599,7 +599,8 @@
  RUS_bury_lenin_moderate:0 "End His Cult of Personality"
  RUS_bury_lenin_omsk:0 "Bury Him Quietly"
  RUS_destroy_lenin_body:0 "Destroy The Traitor"
-
+ RUS_sell_lenin_body:0 "Auction Him Off"
+ RUS_lenin_body_sold:0 "Lenin's Body Sold"
  ### Southern Urals Rewards ###
  RUS_magnitogorsk_research_division:0 "Magnitogorsk Research Bureau"
  RUS_magnitogorsk_research_division_desc:0 "The research conducted under the guidance of the madman Lysenko may have been of questionable utility, but his cadre of scientists from the old Soviet intelligentsia were nothing if not brilliant. With the aid of the Research Bureau our R&D capabilities will be increased tenfold. Though it is perhaps for the best not to ask them what went on within the deep places of the Black Mountain."
@@ -869,6 +870,10 @@
  RUSwonder.1991.t:0 "Lenin's Body Destroyed"
  RUSwonder.1991.desc:0 "Vladimir Lenin, the father of the Soviet Union and the architect of Russia's collapse into warlordism, shall thrive no longer as a symbol of communist indulgence and decline. His body has been burned to ash, and the ashes thrown into Russia's untouched wilds. Although others may cling to the ideas his corpse represented, we will see to it that Lenin as 'one of the most prominent leaders in Russian history' no longer remains true. Lenin was a man, if even that, who toppled our nation for a short period of time. Nothing more, nothing less."
  RUSwonder.1991.a:0 "A short-lived leader with strange ideas, nothing new."
+ 
+ RUSwonder.1992.t:0 "Lenin's body Sold"
+ RUSwonder.1992.desc:0 "Mikhail Oktan, after conquering the Tyumen area in West Siberia, has decided to sell the body of infamous revolutionary and father of the Soviet Union: Lenin.\n\n His body was sold to an anonymous bidder in a private auction in the city of Kazan for roughly 500 million US dollars. Rumor has it the buyer used a Honduran offshore account though it seems impossible to trace where the money came from. Regardless, journalists around the world now surround Oktan's personal home or are looking into leads as to who bought the body."
+ RUSwonder.1992.a:0 "The sweet smell of profit."
 
  ### Wandering Dog chain - West Russia ###
  RUS.8.t:0 "Separated from the Family"

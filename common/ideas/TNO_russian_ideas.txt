@@ -860,6 +860,22 @@ ideas = {
 				war_support_factor = 0.1
 			}
 		}
+		RUS_lenin_body_sold = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea RUS_lenin_embalmed"}
+			allowed = {
+				always = no
+			}
+            cancel = { has_country_flag = RUS_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GLD68_Gold_Standard
+			
+			modifier = {
+				consumer_goods_factor = -0.02
+			}
+		}
 
 		RUS_ural_guard_training = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea RUS_ural_guard_training"}
