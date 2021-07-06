@@ -735,6 +735,110 @@
  OMS_underground_military_depots:0 "Underground Military Depots"
  OMS_underground_military_depots_desc:0 "At times of momentous events, it is easy to forget that the leadership of the Black League does not comprise the whole of it. The Russian National Army, and its ranks lined by loyal men as well as women, serve the interests of the League far better than it can ask for. The leadership is secure in Black Mountain, but these soldiers need protection against the atomic retaliations of the Germans. The Glavkoverkh needs to shelter these soldiers through the harshness of the Fourth Thesis.\n\nWhen the time of burning comes, we shall give the Army the ultimate honor. Once the dust settles over quiet earth, and Russia is avenged, they shall climb out of their underground complexes. The flag of the League shall wave above the ruins of the Volkshalle, the symbol of Russia's ultimate triumph. Above a world of ashes, dust, and embers, blows aloft the ruins a Black flag, of victory."
  
+ ################################
+ ## Post Unification 2WRW Tree ##
+ ################################
+ 
+ OMS_black_boots_march_over_the_east:0 "Black Boots March Over the East"
+ OMS_black_boots_march_over_the_east_desc:0 "With our new grip on the east held, we must implement economic policies to our expanding Russian Nation. With a new decade a new Russia has risen and we shall avenge the wrongdoings  and beat the Germans back." 
+
+ OMS_teach_them_hate:0 "Teach The People Hate" 
+ OMS_teach_them_hate_desc:0 "ith the growing number of people in our country, many of them have hate in their hearts. We shall use that to our advantage, to be able to harness this hatred towards the German and to give the people an enemy to fight." 
+ 
+ OMS_give_them_the_tools_needed:0 "Give Them The Tools Needed"
+ OMS_give_them_the_tools_needed_desc:0 "Now that many have such hatred flowing through their veins, we must use this to revitalize our slowly stagnant economy. They will make more bullets and guns if they know that it is against the German menace." 
+
+ OMS_everything_against_the_germans:0 "Everything Against the Germans"
+ OMS_everything_against_the_germans_desc:0 "Right now we are producing petty things such as handbags and and cars and television. But for The Great Trial we clearly will be needing more military assets than ever. By that notion we must stop producing these small and insignificant trinkets and make something more tangible, more real. Rifles and tanks and grenades are just as important if not more than these luxury goods." 
+ 
+ OMS_the_great_trial_is_near:0 "The Great Trial Awaits" 
+ OMS_the_great_trial_is_near_desc:0 "Long have we waited to take our righteous vengeance out on Germany and her “allies”. Now with our newly repatriated land we shall use the industry and the vastness of Siberia to finally reclaim our land. For our children to frolic around in the fields of Ukraine and hike the mountains in the Caucasus. Such goals have to and must be achieved. We cannot accept defeat."  
+
+ OMS_we_take_no_prisoners:0 "We Shall Take No Prisoners"
+ 
+ 
+ OMS_every_city_a_wasteland:0 "Every City a Wasteland"
+ 
+ 
+ OMS_every_street_an_apocalypse:0 "And Every Street an Apocalypse"
+ 
+ 
+ 
+ OMS_no_fascist_dog_shall_walk_this_earth:0 "No Fascist Dog Shall Walk this Earth"
+ 
+ 
+ OMS_expand_the_contacts:0 "Expanding the Contacts"
+ 
+ 
+ OMS_listen_to_every_movement:0 "Listen to Every Movement"
+ 
+ 
+ OMS_danger_in_every_stranger:0 "Danger in Every Stranger"
+ 
+ 
+ OMS_close_the_border:0 "Close the Boarder"
+ 
+ 
+ OMS_find_all_strategic_targets:0 "Find ALL Strategic Targets"
+ 
+ 
+ OMS_we_know_their_secrets:0 "We Know Their Secrets"
+ 
+ 
+ OMS_further_expansion_of_the_bunkers:0 "Further Expansion of the Bunkers..."
+ 
+ 
+ OMS_for_the_military:0 "...for the Military"
+ 
+ 
+ OMS_our_tanks_are_faster:0 "Our Tanks are Faster"
+ 
+ 
+ OMS_our_planes_outfly_them:0 "Our Planes Outfly Them"
+ 
+ 
+ OMS_open_the_bunkers_slightly:0 "Open the Bunkers Slightly"
+ 
+ 
+ OMS_open_the_bunkers_slightly:0 "Our Guns are Better"
+ 
+ 
+ OMS_our_men_are_stronger:0 "Our Men are Stronger"
+ 
+ 
+ OMS_military_service_for_safety:0 "Military Service for Safety"
+ 
+ 
+ OMS_for_the_civilians:0 "...for the Civilians" 
+ 
+ 
+ 
+ OMS_save_the_builders:0 "Save the Builders"
+ 
+ 
+ OMS_save_the_workers:0 "Save the Workers"
+ 
+ 
+ OMS_save_the_peasants:0 "Save the Peasants"
+ 
+ 
+ OMS_our_economy_is_ready_for_the_trying_times:0 "Our Economy is Ready for the Great Trial"
+ 
+ 
+ OMS_the_great_trial_draws_ever_closer:0 "The Great Trial Draws Every Closer"
+ 
+ 
+ OMS_ready_the_artillery:0 "Ready the Artillery"
+ 
+ 
+ OMS_ready_the_men:0 "Ready the Men"
+ 
+ 
+ OMS_ready_even_the_national_reclamation_weapons:0 "Ready Even the National Reclamation Weapons"
+ 
+ 
+ OMS_anything_to_fight_the_germans:0 "Anything to Fight the Germans"
+ 
  ########################
  ##=====| Events |=====##
  ########################
@@ -1515,6 +1619,7 @@
  omsksr.33.t:0 "Nighttime Rumination"
  omsksr.33.d:0 "A lambent sliver of light silently shot across the Siberian night sky. Kostya craned his neck, momentarily forgetting the fatigue of late-night exercises. The celestial visitor burned brightly for a few seconds before fading with a soft finality, its departure as sudden as its appearance.\n\n"The fuck was that?" Vadim asked, not taking his eyes off of the forested horizon that encircled their shared foxhole.\n\n"Shooting star," Kostya replied lazily, reclining back against the foxhole's rough-hewn wall. "Fifth one this night. You seen anything?"\n\n"No. Thought this was your turn sleeping, though."\n\n"Can't. Thinking."\n\n"About what?"\n\n"Shooting stars." Vadim shot Kostya an odd glance. "You ever feel really, I don't know, small?"\n\n"No-wait, what do you mean exactly?"\n\n"Like, relative to the universe. I was just thinking-" Vadim half-jokingly rolled his eyes. "-you know, that shooting star must have been up there in space for, I dunno, millions of years. All of human history, it was just sitting up there, orbiting or whatever."\n\n"...Kostya, where are you going with this?"\n\n"Think about it, Vadim. For god knows how many years, that little space rock was destined to be here, at this time, in this place, and there's nothing humanity could have done to change that. Bukharin could've won the war, and it'd still be there, right there, at this very moment, regardless of what happened on this planet. You and I could both be dead, or have never been born-"\n\n"I get the point. So what you're saying is-"\n\n"What I'm saying is that sometimes I feel like everything we're doing here, in the League, hell, as human beings, is just so...small. The world just...goes on." Vadim shot him a look - not a disapproving one, but one that they, and perhaps everyone in the Black League, knew well.\n\n"Yeah, I know," Kostya replied. "It's just, I can't help but feel that way."\n\n"You should really get some rest, man.""
  omsksr.33.a:0 ""Yeah, I should.""
+ 
  
  omsksr.34.t:0 ""
  omsksr.34.d:0 ""
