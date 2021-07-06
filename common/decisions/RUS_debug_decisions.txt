@@ -1482,6 +1482,18 @@ OMS_debug_category = {
 			load_focus_tree = { tree = OMS_superregional_tree keep_completed = no }
 		}
 	}
+	OMS_load_national_tree = {
+		allowed = {
+			original_tag = OMS
+		}
+
+		fire_only_once = no
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision OMS_load_superregional_tree"
+			load_focus_tree = { tree = OMS_national_tree_1 keep_completed = no }
+		}
+	}
 	OMS_moyazov_decision = {
 		allowed = {
 			original_tag = OMS
@@ -1648,11 +1660,16 @@ KHA_debug_category = {
             load_focus_tree = KHA_national_libsoc
         }
     }
+	KHA_libpolicy = { 
+        complete_effect = { 
+            set_country_flag = KHA_policy_of_liberation
+        }
+    }
 	KHA_economylaw = {
 		complete_effect = {
 			swap_ideas = {
-				add_idea = tno_economic_focus_collectivized_society
 				remove_idea = tno_economic_focus_war_economy
+				add_idea = tno_economic_focus_collectivized_society
 			}
 		}
 	}

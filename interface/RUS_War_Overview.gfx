@@ -8,8 +8,8 @@ spriteTypes = {
 		texturefile1 = "gfx/interface/war_overview_gui/tension_bar_full.dds"
 		texturefile2 = "gfx/interface/war_overview_gui/tension_bar_empty.dds"
 		size = {
-			x = 406
-			y = 53
+			x = 280
+			y = 38
 		}
 		effectFile = "gfx/FX/progress.lua"
 		horizontal = yes
@@ -28,6 +28,6 @@ spriteTypes = {
 			y = 202
 		}
 		effectFile = "gfx/FX/progress.lua"
-		horizontal = no
+		horizontal = yes
 	}
 }

@@ -6,7 +6,7 @@ guiTypes = {
 		
 		instantTextboxType= {
 			name = "tension_title"
-			position = { x = 10 y = 40 }
+			position = { x = 0 y = 40 }
 			font = "aldrich_36_outline"
 			text = tension_title_loc
 			maxWidth = 500
@@ -17,13 +17,13 @@ guiTypes = {
 		iconType = {
 			name = "tension_bar_frame"
 			spriteType = "GFX_tension_bar_frame"
-			position = { x = 45 y = 77 }
+			position = { x = 70 y = 77 }
 		}
 		
 		iconType = {
 			name = "tension_main_bar"
 			spriteType = "GFX_WRW_Tension_bar"
-			position = { x = 49 y = 81 }
+			position = { x = 70 y = 77 }
 		}
 		
 		instantTextboxType= {
@@ -39,13 +39,13 @@ guiTypes = {
 		iconType = {
 			name = "exhaustion_bar_frame_germany"
 			spriteType = "GFX_exhaustion_bar_frame"
-			position = { x = 160 y = 260 }
+			position = { x = 22 y = 210 }
 		}
 		
 		iconType = {
 			name = "exhaustion_main_bar_germany"
 			spriteType = "GFX_WRW_Exhaustion_bar"
-			position = { x = 166 y = 266 }
+			position = { x = 22 y = 210 }
 		}
 		
 		iconType = {
@@ -65,8 +65,8 @@ guiTypes = {
 			position = { x = 10 y = 229 }
 			font = "aldrich_24_outline"
 			text = german_title_loc
-			maxWidth = 150
-			maxHeight = 100
+			maxWidth = 100
+			maxHeight = 150
 			format = center
 		}
 		
@@ -85,8 +85,8 @@ guiTypes = {
 			position = { x = 340 y = 229 }
 			font = "aldrich_24_outline"
 			text = russian_title_loc
-			maxWidth = 150
-			maxHeight = 100
+			maxWidth = 100
+			maxHeight = 150
 			format = center
 		}
 		
